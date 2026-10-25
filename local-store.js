@@ -812,7 +812,7 @@
       if (input) input.focus();
       return;
     }
-    var searchUrl = new URL(form.action, window.location.href);
+    var searchUrl = new URL(siteUrl("index.html"), window.location.href);
     searchUrl.searchParams.set("q", query);
     window.location.assign(searchUrl.href);
   }
@@ -1156,7 +1156,7 @@
 
         if (currentPage > 1) {
           var previous = document.createElement("a");
-          previous.href = siteUrl("search.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage - 1));
+          previous.href = siteUrl("index.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage - 1));
           previous.textContent = "Previous";
           pagination.appendChild(previous);
         }
@@ -1169,7 +1169,7 @@
             pagination.appendChild(activePage);
           } else {
             var pageLink = document.createElement("a");
-            pageLink.href = siteUrl("search.html?q=" + encodeURIComponent(query) + "&page=" + pageNumber);
+            pageLink.href = siteUrl("index.html?q=" + encodeURIComponent(query) + "&page=" + pageNumber);
             pageLink.textContent = String(pageNumber);
             pageLink.setAttribute("aria-label", "Page " + pageNumber);
             pagination.appendChild(pageLink);
@@ -1178,7 +1178,7 @@
 
         if (currentPage < totalPages) {
           var next = document.createElement("a");
-          next.href = siteUrl("search.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage + 1));
+          next.href = siteUrl("index.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage + 1));
           next.textContent = "Next";
           pagination.appendChild(next);
         }
@@ -1316,12 +1316,14 @@
       });
       if (isSitePage("cart")) {
         renderCart();
-      } else if (isSitePage("search")) {
-        renderSearch(products);
       } else if (window.location.pathname === sitePath("product.html") ||
         (window.location.pathname === sitePath("index.html") &&
           new URLSearchParams(window.location.search).has("url"))) {
         await renderProduct(products);
+      } else if (isSitePage("search") ||
+        (window.location.pathname === sitePath("index.html") &&
+          new URLSearchParams(window.location.search).has("q"))) {
+        renderSearch(products);
       }
     } catch (error) {
       console.error("The product catalog could not be loaded.", error);
