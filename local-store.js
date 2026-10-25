@@ -812,7 +812,9 @@
       if (input) input.focus();
       return;
     }
-    window.location.assign(siteUrl("search.html") + "?q=" + encodeURIComponent(query));
+    var searchUrl = new URL(form.action, window.location.href);
+    searchUrl.searchParams.set("q", query);
+    window.location.assign(searchUrl.href);
   }
 
   function wireSearchForms() {
@@ -821,6 +823,16 @@
       if (target && target.closest(".local-quick-result")) {
         event.preventDefault();
       }
+    }, true);
+
+    document.addEventListener("keydown", function (event) {
+      var input = event.target;
+      if (event.key !== "Enter" || event.isComposing ||
+          !(input instanceof HTMLInputElement) || input.name !== "q" ||
+          !input.form || !input.form.querySelector("input[name='q']")) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      submitSearch(input.form);
     }, true);
 
     document.addEventListener("submit", function (event) {
