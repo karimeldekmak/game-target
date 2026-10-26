@@ -812,7 +812,7 @@
       if (input) input.focus();
       return;
     }
-    var searchUrl = new URL(siteUrl("index.html"), window.location.href);
+    var searchUrl = new URL(siteUrl("search.html"), window.location.href);
     searchUrl.searchParams.set("q", query);
     window.location.assign(searchUrl.href);
   }
@@ -1076,6 +1076,16 @@
     });
   }
 
+  function prepareSiteLinks() {
+    document.querySelectorAll("a[href], form[action]").forEach(function (element) {
+      var attribute = element instanceof HTMLFormElement ? "action" : "href";
+      var value = element.getAttribute(attribute);
+      if (value && value.indexOf("./") === 0) {
+        element.setAttribute(attribute, siteUrl(value.slice(2)));
+      }
+    });
+  }
+
   function renderSearch(products) {
     var query = new URLSearchParams(window.location.search).get("q") || "";
     var normalizedQuery = normalizeSearchText(query);
@@ -1156,7 +1166,7 @@
 
         if (currentPage > 1) {
           var previous = document.createElement("a");
-          previous.href = siteUrl("index.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage - 1));
+          previous.href = siteUrl("search.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage - 1));
           previous.textContent = "Previous";
           pagination.appendChild(previous);
         }
@@ -1169,7 +1179,7 @@
             pagination.appendChild(activePage);
           } else {
             var pageLink = document.createElement("a");
-            pageLink.href = siteUrl("index.html?q=" + encodeURIComponent(query) + "&page=" + pageNumber);
+            pageLink.href = siteUrl("search.html?q=" + encodeURIComponent(query) + "&page=" + pageNumber);
             pageLink.textContent = String(pageNumber);
             pageLink.setAttribute("aria-label", "Page " + pageNumber);
             pagination.appendChild(pageLink);
@@ -1178,7 +1188,7 @@
 
         if (currentPage < totalPages) {
           var next = document.createElement("a");
-          next.href = siteUrl("index.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage + 1));
+          next.href = siteUrl("search.html?q=" + encodeURIComponent(query) + "&page=" + (currentPage + 1));
           next.textContent = "Next";
           pagination.appendChild(next);
         }
@@ -1206,16 +1216,16 @@
       }
     }
 
-    try {
-      var response = await fetch(siteUrl(path), { credentials: "same-origin" });
-      if (response.ok) {
-        var productPage = new DOMParser().parseFromString(await response.text(), "text/html");
-        var description = productPage.querySelector(".product-block-list__item--description .rte");
-        var actualTitle = productPage.querySelector(".product-meta__title");
-        var price = productPage.querySelector(".product-form__info-content .price");
-        var comparePrice = productPage.querySelector(".product-form__info-content .price--compare");
-        var image = productPage.querySelector("meta[property='og:image']");
-        if (!product) {
+    if (!product) {
+      try {
+        var response = await fetch(siteUrl(path), { credentials: "same-origin" });
+        if (response.ok) {
+          var productPage = new DOMParser().parseFromString(await response.text(), "text/html");
+          var description = productPage.querySelector(".product-block-list__item--description .rte");
+          var actualTitle = productPage.querySelector(".product-meta__title");
+          var price = productPage.querySelector(".product-form__info-content .price");
+          var comparePrice = productPage.querySelector(".product-form__info-content .price--compare");
+          var image = productPage.querySelector("meta[property='og:image']");
           product = {
             path: path,
             title: actualTitle ? actualTitle.textContent.trim() : "",
@@ -1223,27 +1233,27 @@
             image: image ? image.content : "",
             description: ""
           };
+          if (description) product.description = description.textContent.replace(/\s+/g, " ").trim();
+          if (actualTitle) product.title = actualTitle.textContent.trim();
+          if (price) {
+            var priceCopy = price.cloneNode(true);
+            priceCopy.querySelectorAll(".visually-hidden").forEach(function (node) {
+              node.remove();
+            });
+            product.price = priceCopy.textContent.replace(/\s+/g, " ").trim();
+          }
+          if (comparePrice) {
+            var compareCopy = comparePrice.cloneNode(true);
+            compareCopy.querySelectorAll(".visually-hidden").forEach(function (node) {
+              node.remove();
+            });
+            product.compareAtPrice = compareCopy.textContent.replace(/\s+/g, " ").trim();
+          }
+          if (!product.image && image) product.image = image.content;
         }
-        if (description) product.description = description.textContent.replace(/\s+/g, " ").trim();
-        if (actualTitle) product.title = actualTitle.textContent.trim();
-        if (price) {
-          var priceCopy = price.cloneNode(true);
-          priceCopy.querySelectorAll(".visually-hidden").forEach(function (node) {
-            node.remove();
-          });
-          product.price = priceCopy.textContent.replace(/\s+/g, " ").trim();
-        }
-        if (comparePrice) {
-          var compareCopy = comparePrice.cloneNode(true);
-          compareCopy.querySelectorAll(".visually-hidden").forEach(function (node) {
-            node.remove();
-          });
-          product.compareAtPrice = compareCopy.textContent.replace(/\s+/g, " ").trim();
-        }
-        if (!product.image && image) product.image = image.content;
+      } catch (error) {
+        console.warn("Could not load extended product details; showing catalog information.", error);
       }
-    } catch (error) {
-      console.warn("Could not load extended product details; showing catalog information.", error);
     }
     if (!product) throw new Error("Product was not found in the catalog or the referring collection.");
     if (!product.title || !product.price) {
@@ -1284,8 +1294,11 @@
   }
 
   async function initialize() {
+    // Shopify's cart refresh requires a backend; the local cart is refreshed below.
+    window.onpageshow = null;
     addStyles();
     simplifyNavigation();
+    prepareSiteLinks();
     wireSearchForms();
     wireCartControls();
     addFloatingWhatsAppButton();
