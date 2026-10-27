@@ -3,7 +3,1196 @@
 
   var storageKey = "gamers-stop-products";
   var cartStorageKey = "gamers-stop-cart";
-  var activeProducts = [];
+  var activeProducts = [];<!doctype html>
+
+<html class="no-js" lang="en">
+  <head> 
+    <script src='//www.gamers-stop.com/cdn/shop/t/5/assets/product_restore_email.js?v=116174674725895538511642023778' defer='defer' ></script> 
+    <script id='em_product_variants' type='application/json'>
+        null
+    </script>
+    <script id='em_product_selected_or_first_available_variant' type='application/json'>
+        null
+    </script>
+    <script id='em_product_metafields' type='application/json'>
+        1642110176
+    </script><meta content="J7GyyDR4ObNGlHEGk-PtPVuMDABVoxkRN_oV-3vBsgg" name="google-site-verification"/>
+  <meta name="google-site-verification" content="kO_qHqC_NFOyjYpnugZMOsFqqibl3lEbqhUfw0_fmAA" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#db0000"><title>Search | Game Target</title><meta name="description" content="At Game Target, you can buy video games online for your favorite gaming systems. You can also find gaming consoles, accessories, electronics and more.. PS5 PlayStation 5, PS4 PlayStation 4, Nintendo Switch, Xbox series X, Xbox series S, Xbox one..."><link rel="canonical" href="https://www.gamers-stop.com/search"><link rel="icon" type="image/jpeg" href="./game-target-icon.jpg"><link rel="shortcut icon" type="image/jpeg" href="./game-target-icon.jpg"><link rel="preload" as="style" href="//www.gamers-stop.com/cdn/shop/t/5/assets/theme.css?v=93670058495868888441612566624">
+    <link rel="preload" as="script" href="//www.gamers-stop.com/cdn/shop/t/5/assets/theme.js?v=97818607970028862201614065463">
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com">
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://maps.googleapis.com">
+    <link rel="dns-prefetch" href="https://maps.gstatic.com">
+
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="Search"><meta property="og:description" content="At Game Target, you can buy video games online for your favorite gaming systems. You can also find gaming consoles, accessories, electronics and more.. PS5 PlayStation 5, PS4 PlayStation 4, Nintendo Switch, Xbox series X, Xbox series S, Xbox one..."><meta property="og:url" content="https://www.gamers-stop.com/search">
+<meta property="og:site_name" content="Game Target"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Search">
+  <meta name="twitter:description" content="At Game Target, you can buy video games online for your favorite gaming systems. You can also find gaming consoles, accessories, electronics and more.. PS5 PlayStation 5, PS4 PlayStation 4, Nintendo Switch, Xbox series X, Xbox series S, Xbox one...">
+    <link rel="preload" href="//www.gamers-stop.com/cdn/fonts/barlow/barlow_n6.329f582a81f63f125e63c20a5a80ae9477df68e1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//www.gamers-stop.com/cdn/fonts/barlow/barlow_n5.a193a1990790eba0cc5cca569d23799830e90f07.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+  @font-face {
+  font-family: Barlow;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n6.329f582a81f63f125e63c20a5a80ae9477df68e1.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n6.0163402e36247bcb8b02716880d0b39568412e9e.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Barlow;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n5.a193a1990790eba0cc5cca569d23799830e90f07.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n5.ae31c82169b1dc0715609b8cc6a610b917808358.woff") format("woff");
+}
+
+@font-face {
+  font-family: Barlow;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n6.329f582a81f63f125e63c20a5a80ae9477df68e1.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n6.0163402e36247bcb8b02716880d0b39568412e9e.woff") format("woff");
+}
+
+@font-face {
+  font-family: Barlow;
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_i6.5a22bd20fb27bad4d7674cc6e666fb9c77d813bb.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_i6.1c8787fcb59f3add01a87f21b38c7ef797e3b3a1.woff") format("woff");
+}
+
+
+  @font-face {
+  font-family: Barlow;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n7.691d1d11f150e857dcbc1c10ef03d825bc378d81.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_n7.4fdbb1cb7da0e2c2f88492243ffa2b4f91924840.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Barlow;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_i5.714d58286997b65cd479af615cfa9bb0a117a573.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_i5.0120f77e6447d3b5df4bbec8ad8c2d029d87fb21.woff") format("woff");
+}
+
+  @font-face {
+  font-family: Barlow;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_i7.50e19d6cc2ba5146fa437a5a7443c76d5d730103.woff2") format("woff2"),
+       url("//www.gamers-stop.com/cdn/fonts/barlow/barlow_i7.47e9f98f1b094d912e6fd631cc3fe93d9f40964f.woff") format("woff");
+}
+
+
+  :root {
+    --default-text-font-size : 15px;
+    --base-text-font-size    : 16px;
+    --heading-font-family    : Barlow, sans-serif;
+    --heading-font-weight    : 600;
+    --heading-font-style     : normal;
+    --text-font-family       : Barlow, sans-serif;
+    --text-font-weight       : 500;
+    --text-font-style        : normal;
+    --text-font-bolder-weight: 600;
+    --text-link-decoration   : underline;
+
+    --text-color               : #677279;
+    --text-color-rgb           : 103, 114, 121;
+    --heading-color            : #000000;
+    --border-color             : #e1e3e4;
+    --border-color-rgb         : 225, 227, 228;
+    --form-border-color        : #d4d6d8;
+    --accent-color             : #db0000;
+    --accent-color-rgb         : 219, 0, 0;
+    --link-color               : #00badb;
+    --link-color-hover         : #00798e;
+    --background               : #f3f5f6;
+    --secondary-background     : #ffffff;
+    --secondary-background-rgb : 255, 255, 255;
+    --accent-background        : rgba(219, 0, 0, 0.08);
+
+    --input-background: #ffffff;
+
+    --error-color       : #ff0000;
+    --error-background  : rgba(255, 0, 0, 0.07);
+    --success-color     : #00aa00;
+    --success-background: rgba(0, 170, 0, 0.11);
+
+    --primary-button-background      : #db0000;
+    --primary-button-background-rgb  : 219, 0, 0;
+    --primary-button-text-color      : #ffffff;
+    --secondary-button-background    : #1e2d7d;
+    --secondary-button-background-rgb: 30, 45, 125;
+    --secondary-button-text-color    : #ffffff;
+
+    --header-background      : #ffffff;
+    --header-text-color      : #000000;
+    --header-light-text-color: #ff0000;
+    --header-border-color    : rgba(255, 0, 0, 0.3);
+    --header-accent-color    : #db0000;
+
+    --footer-background-color:    #f3f5f6;
+    --footer-heading-text-color:  #000000;
+    --footer-body-text-color:     #677279;
+    --footer-accent-color:        #db0000;
+    --footer-accent-color-rgb:    219, 0, 0;
+    --footer-border:              1px solid var(--border-color);
+    
+    --flickity-arrow-color: #abb1b4;--product-on-sale-accent           : #ee0000;
+    --product-on-sale-accent-rgb       : 238, 0, 0;
+    --product-on-sale-color            : #ffffff;
+    --product-in-stock-color           : #008a00;
+    --product-low-stock-color          : #ee0000;
+    --product-sold-out-color           : #8a9297;
+    --product-custom-label-1-background: #008a00;
+    --product-custom-label-1-color     : #ffffff;
+    --product-custom-label-2-background: #00a500;
+    --product-custom-label-2-color     : #ffffff;
+    --product-review-star-color        : #ffbd00;
+
+    --mobile-container-gutter : 20px;
+    --desktop-container-gutter: 40px;
+  }
+</style>
+
+<script>
+  // IE11 does not have support for CSS variables, so we have to polyfill them
+  if (!(((window || {}).CSS || {}).supports && window.CSS.supports('(--a: 0)'))) {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2';
+    script.onload = function() {
+      cssVars({});
+    };
+
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>
+
+
+    <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="J7GyyDR4ObNGlHEGk-PtPVuMDABVoxkRN_oV-3vBsgg">
+<meta name="facebook-domain-verification" content="b5qim5eoeixcgjqskgfle5v00orwvh">
+<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/27294761037/digital_wallets/dialog">
+<link rel="ucp" href="./.well-known/ucp" version="2026-08-25"><script async="async" src="https://www.gamers-stop.com/checkouts/internal/preloads.js?locale=en-LB"></script>
+<script id="shopify-features" type="application/json">{"accessToken":"b86be96692f548fc2e82fb362007de05","betas":["rich-media-storefront-analytics"],"domain":"www.gamers-stop.com","predictiveSearch":true,"shopId":27294761037,"locale":"en"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "gamestoplb.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.country = "LB";
+Shopify.theme = {"name":"Warehouse \"verfied By google\"","id":84038582349,"schema_name":"Warehouse","schema_version":"1.15.1","theme_store_id":871,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "www.gamers-stop.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";
+Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";
+Shopify.SignInWithShop = Shopify.SignInWithShop || {};
+Shopify.SignInWithShop.User = Shopify.SignInWithShop.User || {};
+Shopify.SignInWithShop.User.recognized = false;</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.SignInWithShop = window.Shopify.SignInWithShop || {};
+  window.Shopify.SignInWithShop.assetMetrics = { sampleRate: 0.25 };
+  window.Shopify.SignInWithShop.eligible = true;
+</script>
+<script id="shop-js-analytics" type="application/json">{"pageType":"search"}</script>
+<script defer="defer" async type="module" src="https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js"></script>
+<script type="module">
+  await import("https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js");
+
+  window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true});
+
+</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
+  window.Shopify.featureAssets['shop-js'] = {"avatar":["modules/v2/loader.avatar.en.esm.js"],"checkout-modal":["modules/v2/loader.checkout-modal.en.esm.js"],"init-customer-accounts-sign-up":["modules/v2/loader.init-customer-accounts-sign-up.en.esm.js"],"init-customer-accounts":["modules/v2/loader.init-customer-accounts.en.esm.js"],"init-fed-cm":["modules/v2/loader.init-fed-cm.en.esm.js"],"init-shop-cart-sync":["modules/v2/loader.init-shop-cart-sync.en.esm.js"],"init-shop-email-lookup-coordinator":["modules/v2/loader.init-shop-email-lookup-coordinator.en.esm.js"],"init-shop-for-new-customer-accounts":["modules/v2/loader.init-shop-for-new-customer-accounts.en.esm.js"],"init-shop-user-recognition":["modules/v2/loader.init-shop-user-recognition.en.esm.js"],"init-windoid":["modules/v2/loader.init-windoid.en.esm.js"],"lead-capture":["modules/v2/loader.lead-capture.en.esm.js"],"listener":["modules/v2/loader.listener.en.esm.js"],"pay-button":["modules/v2/loader.pay-button.en.esm.js"],"payment-terms":["modules/v2/loader.payment-terms.en.esm.js"],"shop-button":["modules/v2/loader.shop-button.en.esm.js"],"shop-cart-sync":["modules/v2/loader.shop-cart-sync.en.esm.js"],"shop-cash-offers":["modules/v2/loader.shop-cash-offers.en.esm.js"],"shop-follow-button":["modules/v2/loader.shop-follow-button.en.esm.js"],"shop-login-button":["modules/v2/loader.shop-login-button.en.esm.js"],"shop-login":["modules/v2/loader.shop-login.en.esm.js"],"shop-toast-manager":["modules/v2/loader.shop-toast-manager.en.esm.js"],"shop-user-recognition":["modules/v2/loader.shop-user-recognition.en.esm.js"]};
+</script>
+<script>(function() {
+  var isLoaded = false;
+  function asyncLoad() {
+    if (isLoaded) return;
+    isLoaded = true;
+    var urls = ["https:\/\/cdn.shopify.com\/s\/files\/1\/0184\/4255\/1360\/files\/whatsapp.v4.min.js?v=1618452824\u0026shop=gamestoplb.myshopify.com","https:\/\/pcc.cldmapps.com\/app-contents\/js\/main.js?shop=gamestoplb.myshopify.com","https:\/\/cdncozyantitheft.addons.business\/js\/script_tags\/gamestoplb\/reUHetb0FCerGh3qriWf6cepG8nlV75P.js?shop=gamestoplb.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":27294761037,"offset":10800,"reqid":"5e589d96-6b59-4dc0-95b2-49a391755927-1791559156","pageurl":"www.gamers-stop.com\/search","u":"ae3a71e9cad9","p":"searchresults"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.3.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!1)}();</script>
+<script integrity="sha256-JjoPp5ZfB1sSAs5SQaol1x1GgvveM+BgmRzyDexInEQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//www.gamers-stop.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js" crossorigin="anonymous"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//www.gamers-stop.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script id="shopify-origin-trials" async="async" integrity="sha256-qJbe/jEZBHtr5W/BlA2cKAz3vkXu6vJQyLjgvgCC86g=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.MCP = window.Shopify.MCP || {};
+  window.Shopify.MCP.enabled = true;
+  window.Shopify.MCP.shop = "gamestoplb.myshopify.com";
+  window.Shopify.MCP.mcpEndpoint = "https:\/\/www.gamers-stop.com\/api\/mcp";
+  window.Shopify.MCP.tools = [{"name":"search_shop_policies_and_faqs","description":"Used to get facts about the stores policies, products, or services.\nSome examples of questions you can ask are:\n  - What is your return policy?\n  - What is your shipping policy?\n  - What is your phone number?\n  - What are your hours of operation?\"\nSet policy_types to also get the store's written policies (full text and URL).\n","inputSchema":{"$schema":"https:\/\/json-schema.org\/draft\/2020-12\/schema","type":"object","properties":{"query":{"type":"string","description":"A natural language query."},"context":{"type":"string","description":"Additional information about the request such as user demographics, mood, location, or other relevant details that could help in tailoring the response appropriately."},"policy_types":{"type":"array","items":{"type":"string","enum":["refund","shipping","privacy","terms_of_service","terms_of_sale","subscription","legal_notice","contact"]},"description":"Policy kinds to fetch, chosen from the user's question — e.g. [\"refund\"] for returns\/exchanges\/damaged items, [\"contact\"] for phone\/hours\/address. Include every kind the question touches. Omit it to get only FAQ answers."}},"required":["query"]}}];
+</script>
+<script>(()=>{var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("\/\/www.gamers-stop.com\/cdn\/shopifycloud\/storefront\/assets\/storefront\/webmcp-f427de6a.js","sha256-ypGF+5vIq4Psw4WG7nsVtdd\/TCfsJWnrNuACdqLCElY=");})();
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://www.gamers-stop.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
+  function portableWalletsHideBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.add("hidden"),t.setAttribute("aria-hidden","true"),n.removeEventListener("click",e))}function portableWalletsShowBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.remove("hidden"),t.removeAttribute("aria-hidden"),n.addEventListener("click",e))}window.Shopify?.PaymentButton&&(window.Shopify.PaymentButton.hideBuyerConsent=portableWalletsHideBuyerConsent,window.Shopify.PaymentButton.showBuyerConsent=portableWalletsShowBuyerConsent);
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">document.addEventListener("DOMContentLoaded",(function(){function t(){return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout")}if(t())Shopify.PaymentButton.init();else{new MutationObserver((function(e,n){t()&&(Shopify.PaymentButton.init(),n.disconnect())})).observe(document.body,{childList:!0,subtree:!0})}}));
+</script>
+
+<script id="shopify-cfh-end">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+    <link rel="stylesheet" href="//www.gamers-stop.com/cdn/shop/t/5/assets/theme.css?v=93670058495868888441612566624">
+
+    
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.gamers-stop.com"
+    }]
+  }
+  </script>
+
+
+    <script>
+      // This allows to expose several variables to the global scope, to be used in scripts
+      window.theme = {
+        pageType: "search",
+        cartCount: 0,
+        moneyFormat: "$ {{amount_no_decimals}}",
+        moneyWithCurrencyFormat: "\u003cspan class=money\u003e\u003cspan class=money\u003e$ {{amount_no_decimals}} USD\u003c\/span\u003e\u003c\/span\u003e",
+        showDiscount: true,
+        discountMode: "percentage",
+        searchMode: "product,article",
+        cartType: "message"
+      };
+
+      window.routes = {
+        rootUrl: "\/",
+        rootUrlWithoutSlash: '',
+        cartUrl: "\/cart",
+        cartAddUrl: "\/cart\/add",
+        cartChangeUrl: "\/cart\/change",
+        searchUrl: "\/search",
+        productRecommendationsUrl: "\/recommendations\/products"
+      };
+
+      window.languages = {
+        productRegularPrice: "Regular price",
+        productSalePrice: "Sale price",
+        collectionOnSaleLabel: "Save {{savings}}",
+        productFormUnavailable: "Unavailable",
+        productFormAddToCart: "Add to cart",
+        productFormSoldOut: "Sold out",
+        productAdded: "Product has been added to your cart",
+        productAddedShort: "Added!",
+        shippingEstimatorNoResults: "No shipping could be found for your address.",
+        shippingEstimatorOneResult: "There is one shipping rate for your address:",
+        shippingEstimatorMultipleResults: "There are {{count}} shipping rates for your address:",
+        shippingEstimatorErrors: "There are some errors:"
+      };
+
+      window.lazySizesConfig = {
+        loadHidden: false,
+        hFac: 0.8,
+        expFactor: 3,
+        customMedia: {
+          '--phone': '(max-width: 640px)',
+          '--tablet': '(min-width: 641px) and (max-width: 1023px)',
+          '--lap': '(min-width: 1024px)'
+        }
+      };
+
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script><script src="./local-store.js?v=20261026-1" defer></script><script src="//www.gamers-stop.com/cdn/shop/t/5/assets/theme.js?v=97818607970028862201614065463" defer></script>
+    <script src="//www.gamers-stop.com/cdn/shop/t/5/assets/custom.js?v=90373254691674712701612566621" defer></script><script>
+        (function () {
+          window.onpageshow = function() {
+            // We force re-freshing the cart content onpageshow, as most browsers will serve a cache copy when hitting the
+            // back button, which cause staled data
+            document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+              bubbles: true,
+              detail: {scrollToTop: false}
+            }));
+          };
+        })();
+      </script><meta property="og:image" content="https://cdn.shopify.com/s/files/1/0272/9476/1037/files/PicsArt_04-09-01.58.32_resize_7_cdacda5c-041d-433d-bec1-df84cf64356c.jpg?v=1625562235" />
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0272/9476/1037/files/PicsArt_04-09-01.58.32_resize_7_cdacda5c-041d-433d-bec1-df84cf64356c.jpg?v=1625562235" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {try {var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description;} catch {var session_token_from_headers = undefined;}var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/);var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : "";var session_token = session_token_from_headers || session_token_from_cookie || "";function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 27294761037,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token,page_type: "search"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script>
+  window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
+</script>
+<script>(function(){var wpmLoader=function(){"use strict";var e=/Googlebot|Storebot-Google|bingbot|Baiduspider|YandexBot|DuckDuckBot|Slurp|facebookexternalhit|Twitterbot|LinkedInBot|Applebot|AdsBot-Google|Mediapartners-Google|APIs-Google|PetalBot|SemrushBot|AhrefsBot|MJ12bot|DotBot|Acunetix|PerplexityBot|Perplexity-User/i,t=/bytedance/i;function i(){try{var e=document.cookie;if(!e||"string"!=typeof e)return;for(var t=0,i=e.split(";");t<i.length;t++){var n=i[t],r=n.indexOf("=");if(-1!==r){var o=n.slice(0,r).trim();if(o){var a=void 0;try{a=decodeURIComponent(o)}catch(e){a=o}if("_shopify_s"===a){var d=n.slice(r+1).trim();try{return decodeURIComponent(d)}catch(e){return d}}}}}return}catch(e){return}}function n(e){try{"undefined"!=typeof console&&"function"==typeof console.warn&&console.warn(e)}catch(e){}}function r(e,t){return"string"==typeof e&&e.length>0&&e.length<=t?e:void 0}function o(e){var t;switch(null==(t=null==e?void 0:e.navigation)?void 0:t.type){case 0:return"navigate";case 1:return"reload";case 2:return"back_forward";default:return}}function a(){var e,t,i;try{var n=null==(i=null==(t=null==(e=self.ShopifyAnalytics)?void 0:e.lib)?void 0:t.trekkie)?void 0:i.state;return"awaiting-consent"===n||"initialized"===n?n:void 0}catch(e){return}}return function(d,s,u,l){var c=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};try{var p=c.trekkieShim;!0!==p&&"true"!==p||null!=window.__TREKKIE_SHIM_QUEUE||(window.__TREKKIE_SHIM_QUEUE=[])}catch(e){}var f,v,h,y,g=(v=(f={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(15\d|1[6-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(14[89]|1[5-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,h=f.legacy,(y=navigator.userAgent).match(e)?"bot":y.match(v)?"modern":y.match(h)?"legacy":y.match(t)?"bot":"unknown"),m=function(e){var t,i,n=r(e,128);try{var a=window.performance,d=null==(t=null==a?void 0:a.getEntriesByType)?void 0:t.call(a,"navigation")[0];if(!d)return{requestId:n,navigationType:o(a)};var s="type"in d?r(d.type,64):void 0,u="serverTiming"in d&&Array.isArray(d.serverTiming)?d.serverTiming:[];return{requestId:null!=n?n:r(null==(i=u.find(function(e){return"requestID"===e.name}))?void 0:i.description,128),navigationType:s}}catch(e){return{requestId:n}}}(c.requestId),w=function(e){var t=e.version,r=e.browserTarget,o=e.surface,a=e.shopId,d=e.monorailEndpoint,s=window.location.href;return{emit:function(e){var u=e.status,l=e.errorMsg,c=e.failureReason,p=e.useKeepaliveFallback,f=void 0!==p&&p,v=e.navigationType,h=e.pagehidePersisted,y=e.requestId,g=e.trekkieState;if(d){var m,w;try{var b=(new Date).getTime();m=JSON.stringify({metadata:{event_sent_at_ms:b},events:[{schema_id:"web_pixels_manager_load/3.3",payload:{version:t,bundle_target:r,page_url:s,status:u,surface:o,error_msg:l,failure_reason:c,navigation_type:v,pagehide_persisted:h,request_id:y,trekkie_state:g,shop_id:a,visit_token:i()},metadata:{event_created_at_ms:b}}]})}catch(e){return}try{if("function"==typeof window.navigator.sendBeacon&&-1===(w=window.navigator.userAgent).indexOf("iPhone; CPU iPhone OS 12_")&&-1===w.indexOf("iPad; CPU OS 12_")&&-1===w.indexOf("iPod touch; CPU iPhone OS 12_")&&window.navigator.sendBeacon.bind(window.navigator)(d,m))return}catch(e){}if(f)try{"function"==typeof window.fetch&&window.fetch(d,{method:"POST",headers:{"Content-Type":"text/plain"},body:m,keepalive:!0}).catch(function(){})}catch(e){}else try{var _=new XMLHttpRequest;_.open("POST",d,!0),_.setRequestHeader("Content-Type","text/plain"),_.send(m)}catch(e){n("[Web Pixels Manager] Got an unhandled error while logging to Monorail.")}}else n("[Web Pixels Manager] No Monorail endpoint provided, skipping logging.")}}}({version:u,browserTarget:g,surface:d.surface,shopId:d.shopId,monorailEndpoint:d.monorailEndpoint});if(Boolean(null==(_=null==(b=window.Shopify)?void 0:b.analytics)?void 0:_.replayQueue))w.emit({status:"setup-skipped",errorMsg:"replay queue already initialized."});else{var b,_;w.emit({status:"setup-started"}),window.Shopify=window.Shopify||{};var S=window.Shopify;S.analytics=S.analytics||{};var P=S.analytics;P.replayQueue=[],P.publish=function(e,t,i){return P.replayQueue.push([e,t,i]),!0};try{self.performance.mark("wpm:start")}catch(e){}var k,C="modern"===g?"modern":"legacy",E=(null!=l?l:{modern:"",legacy:""})[C],I=[(k={baseUrl:s,hashVersion:u,buildTarget:C}).baseUrl,"/wpm","/b",k.hashVersion,"modern"===k.buildTarget?"m":"l",".js"].join(""),O=!1,T=!1;try{c.browserTarget=g,function(){O=!0;try{window.addEventListener("pagehide",M)}catch(e){O=!1}}(),R(function(){try{R(x)}catch(e){D(e)}}),w.emit({status:"loading",requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()})}catch(e){D(e)}}function U(){var e;if(q(),!function(){var e,t;return Boolean(null==(t=null==(e=window.Shopify)?void 0:e.analytics)?void 0:t.initialized)}()){var t,i,n;try{if("function"!=typeof(null==(e=window.webPixelsManager)?void 0:e.init))return void A();if(!(null!==(n=i=t=window.webPixelsManager.init(d))&&"function"!=typeof n&&Object(n)===n&&"publish"in i&&"function"==typeof i.publish&&"publishCustomEvent"in i&&"function"==typeof i.publishCustomEvent&&"visitor"in i&&"function"==typeof i.visitor))return void A()}catch(e){return void A(e)}var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var i=e[0],n=e[1],r=e[2];t.publishCustomEvent(i,n,r)}),r.replayQueue=[],r.publish=t.publishCustomEvent,r.visitor=t.visitor,r.initialized=!0}}function A(e){B("manager_api_unavailable",void 0===e?void 0:Q(e))}function x(){B("script_load_failed","".concat(I," has failed to load"))}function B(e,t){T||(T=!0,q(),w.emit({status:"failed",errorMsg:t,failureReason:e,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function M(e){O&&(q(),w.emit({status:"pagehide-while-loading",useKeepaliveFallback:!0,pagehidePersisted:e.persisted,requestId:m.requestId,navigationType:m.navigationType,trekkieState:a()}))}function q(){O=!1;try{window.removeEventListener("pagehide",M)}catch(e){}}function R(e){var t;!function(e){var t=e.src,i=e.async,n=void 0===i||i,r=e.onload,o=e.onerror,a=e.sri,d=e.scriptDataAttributes,s=void 0===d?{}:d,u=document.createElement("script"),l=document.querySelector("head"),c=document.querySelector("body");if(u.async=n,u.src=t,a&&(u.integrity=a,u.crossOrigin="anonymous"),s)for(var p in s)if(Object.prototype.hasOwnProperty.call(s,p))try{u.dataset[p]=String(s[p])}catch(e){}if(r&&u.addEventListener("load",r),o&&u.addEventListener("error",o),l)l.appendChild(u);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(u)}}({src:I,async:!0,onload:U,onerror:e,sri:(t=E,"string"==typeof t&&/^sha384-[A-Za-z0-9+/=]+$/.test(t)?E:""),scriptDataAttributes:c})}function D(e){B("script_append_failed",Q(e))}function Q(e){return e instanceof Error?e.message:"Unknown error"}}}();wpmLoader({shopId: 27294761037,storefrontBaseUrl: "https://www.gamers-stop.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://www.gamers-stop.com/.well-known/shopify/monorail/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["4c64608a","16072cab"],webPixelsConfigList: [{"id":"503120094","configuration":"{\"config\":\"{\\\"google_tag_ids\\\":[\\\"AW-17722724272\\\",\\\"GT-K554BZP\\\"],\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"begin_checkout\\\",\\\"action_label\\\":\\\"AW-17722724272\\\/WeJHCISTv_4bELCf7YJC\\\"},{\\\"type\\\":\\\"search\\\",\\\"action_label\\\":\\\"AW-17722724272\\\/SL6RCJCTv_4bELCf7YJC\\\"},{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"AW-17722724272\\\/HkuWCI2Tv_4bELCf7YJC\\\",\\\"MC-N9VQ32C434\\\"]},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"AW-17722724272\\\/6OfeCJLHrv4bELCf7YJC\\\",\\\"MC-N9VQ32C434\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"AW-17722724272\\\/W3UACIqTv_4bELCf7YJC\\\",\\\"MC-N9VQ32C434\\\"]},{\\\"type\\\":\\\"add_payment_info\\\",\\\"action_label\\\":\\\"AW-17722724272\\\/p7zoCJOTv_4bELCf7YJC\\\"},{\\\"type\\\":\\\"add_to_cart\\\",\\\"action_label\\\":\\\"AW-17722724272\\\/t7wMCIeTv_4bELCf7YJC\\\"}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"a3321ca85cf5aaf6b57585fcd8d67b3a","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"125370590","configuration":"{\"pixel_id\":\"487009609262852\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"bd2f978c17a94bbb8a74d43de2165dc5","type":"APP","apiClientId":2329312,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized","enabledFlags":["9a3ed68a"]},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0530","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Game Target","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"gamestoplb.myshopify.com","countryCode":"LB","storefrontUrl":"https:\/\/www.gamers-stop.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"products":[],"purchasingCompany":null},},"https://www.gamers-stop.com/cdn","7ec887c8w14f9f074p854094e1m1370c602",{"modern":"","legacy":""},{"trekkieShim":true,"agentContext":true,"apiClientId":"580111","facebookCapiEnabled":"true","themeId":"84038582349","themeStoreId":"871","themePublished":"true","eventMetadataId":"3a57ae7c-4898-4044-a482-591776499cc1","pageType":"searchresults","shopId":"27294761037","storefrontBaseUrl":"https:\/\/www.gamers-stop.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"4c64608a\", \"16072cab\"]","isMerchantRequest":"false","hashVersion":"7ec887c8w14f9f074p854094e1m1370c602","publish":"custom","events":"[[\"page_viewed\",{}],[\"search_submitted\",{\"searchResult\":{\"query\":\"\",\"productVariants\":[]}}]]"});})();</script><script>
+  window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+  window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+  window.ShopifyAnalytics.meta.currency = 'USD';
+  var meta = {"products":[],"page":{"pageType":"searchresults","requestId":"5e589d96-6b59-4dc0-95b2-49a391755927-1791559156"}};
+  for (var attr in meta) {
+    window.ShopifyAnalytics.meta[attr] = meta[attr];
+  }
+</script>
+<script class="analytics">
+  (function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    window.ShopifyAnalytics.lib.trekkie = window.trekkie;
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        if (method == 'track' || method == 'page') {
+          var pageUrl;
+          try {
+            pageUrl = window.location.href;
+          } catch (e) {}
+          var pageReferrer;
+          try {
+            pageReferrer = document.referrer;
+          } catch (e) {}
+          try {
+            if (window.__TREKKIE_SHIM_QUEUE == null) {
+              window.__TREKKIE_SHIM_QUEUE = [];
+            }
+            window.__TREKKIE_SHIM_QUEUE.push({
+              from: 'trekkie-stub',
+              method: method,
+              args: args.slice(1),
+              pageContext: {
+                url: pageUrl,
+                referrer: pageReferrer
+              }
+            });
+          } catch (e) {
+            // no-op
+          }
+        }
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.onerror = function(e) {
+  var scriptFallback = document.createElement('script');
+  scriptFallback.type = 'text/javascript';
+  scriptFallback.onerror = function(error) {
+          var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 27294761037,
+      theme_id: 84038582349,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "//www.gamers-stop.com/cdn/s/trekkie.storefront.51e69540e15035ae012ec8cc42e8f9cd792233a0.min.js"});
+
+  };
+  scriptFallback.async = true;
+  scriptFallback.src = '//www.gamers-stop.com/cdn/s/trekkie.storefront.51e69540e15035ae012ec8cc42e8f9cd792233a0.min.js';
+  first.parentNode.insertBefore(scriptFallback, first);
+};
+script.async = true;
+script.src = '//www.gamers-stop.com/cdn/s/trekkie.storefront.51e69540e15035ae012ec8cc42e8f9cd792233a0.min.js';
+first.parentNode.insertBefore(script, first);
+
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":27294761037,"isMerchantRequest":null,"themeId":84038582349,"themeCityHash":"15020138032662941256","contentLanguage":"en","currency":"USD","eventMetadataId":"3a57ae7c-4898-4044-a482-591776499cc1"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["764d78cb","4c64608a"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        window.ShopifyAnalytics.lib.track("Performed Search",{"query":null},undefined,undefined,{"shopifyEmitted":true});
+      }
+    });
+
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"searchresults","requestId":"5e589d96-6b59-4dc0-95b2-49a391755927-1791559156","shopifyEmitted":true});
+
+    var eventsListenerScript = document.createElement('script');
+    eventsListenerScript.async = true;
+    eventsListenerScript.src = "//www.gamers-stop.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js";
+    document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+})();</script>
+<script
+  defer
+  src="https://www.gamers-stop.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.10.1.min.js"
+  data-application="storefront-renderer"
+  data-shop-id="27294761037"
+  data-render-region="gcp-europe-west1"
+  data-page-type="search"
+  data-theme-instance-id="84038582349"
+  data-theme-name="Warehouse"
+  data-theme-version="1.15.1"
+  data-monorail-region="shop_domain"
+  data-resource-timing-sampling-rate="10"
+  data-shs="true"
+  data-shs-beacon="true"
+  data-shs-export-with-fetch="true"
+  data-shs-logs-sample-rate="1"
+  data-shs-beacon-endpoint="https://www.gamers-stop.com/api/collect"
+></script>
+<meta name="shopify-y" content="bff63102-5bcf-43cf-bd1a-f1c92509b1ce" data-expiration="1823116722000"><meta name="shopify-s" content="120d7868-00e8-450e-821a-c13edf84c7f7" data-expiration="1791560922000">
+<link rel="stylesheet" href="./branding.css"></head>
+
+  <body class="warehouse--v1 features--animate-zoom template-search " data-instant-intensity="viewport">
+    <a href="#main" class="visually-hidden skip-to-content">Skip to content</a>
+    <span class="loading-bar"></span>
+
+    <div id="shopify-section-announcement-bar" class="shopify-section"></div>
+<div id="shopify-section-popups" class="shopify-section"><div data-section-id="popups" data-section-type="popups"></div>
+
+</div>
+<div id="shopify-section-header" class="shopify-section shopify-section__header"><section data-section-id="header" data-section-type="header" data-section-settings='{
+  "navigationLayout": "inline",
+  "desktopOpenTrigger": "hover",
+  "useStickyHeader": false
+}'>
+  <header class="header header--inline header--search-expanded" role="banner">
+    <div class="container">
+      <div class="header__inner"><nav class="header__mobile-nav hidden-lap-and-up">
+            <button class="header__mobile-nav-toggle icon-state touch-area" data-action="toggle-menu" aria-expanded="false" aria-haspopup="true" aria-controls="mobile-menu" aria-label="Open menu">
+              <span class="icon-state__primary"><svg focusable="false" class="icon icon--hamburger-mobile" viewBox="0 0 20 16" role="presentation">
+      <path d="M0 14h20v2H0v-2zM0 0h20v2H0V0zm0 7h20v2H0V7z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></span>
+              <span class="icon-state__secondary"><svg focusable="false" class="icon icon--close" viewBox="0 0 19 19" role="presentation">
+      <path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></span>
+            </button><div id="mobile-menu" class="mobile-menu" aria-hidden="true"><svg focusable="false" class="icon icon--nav-triangle-borderless" viewBox="0 0 20 9" role="presentation">
+      <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+    </svg><div class="mobile-menu__inner">
+    <div class="mobile-menu__panel">
+      <div class="mobile-menu__section">
+        <ul class="mobile-menu__nav" data-type="menu" role="list"><li class="mobile-menu__nav-item"><a href="./" class="mobile-menu__nav-link" data-type="menuitem">Home</a></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-1" data-action="open-panel">Nintendo Switch 2<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-2" data-action="open-panel">Nintendo Switch<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-3" data-action="open-panel">PlayStation 5<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-4" data-action="open-panel">PlayStation 4<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-5" data-action="open-panel">XBOX<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-6" data-action="open-panel">Gamers Setup<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-7" data-action="open-panel">Mobile Accessories<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li><li class="mobile-menu__nav-item"><a href="./collections/oculus-quest-2.html" class="mobile-menu__nav-link" data-type="menuitem">Meta Quest VR</a></li><li class="mobile-menu__nav-item"><a href="./collections/steam-deck.html" class="mobile-menu__nav-link" data-type="menuitem">Steam Deck</a></li><li class="mobile-menu__nav-item"><a href="./collections/asus-rog-xbox-ally.html" class="mobile-menu__nav-link" data-type="menuitem">ASUS ROG Xbox Ally</a></li><li class="mobile-menu__nav-item"><a href="./collections/lightning.html" class="mobile-menu__nav-link" data-type="menuitem">Lighting</a></li><li class="mobile-menu__nav-item"><a href="./collections/retro.html" class="mobile-menu__nav-link" data-type="menuitem">Retro</a></li><li class="mobile-menu__nav-item"><a href="./collections/mobile-accessories.html" class="mobile-menu__nav-link" data-type="menuitem">Electronics & Gadgets</a></li><li class="mobile-menu__nav-item"><button class="mobile-menu__nav-link" data-type="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-panel-14" data-action="open-panel">Gift Cards<svg focusable="false" class="icon icon--arrow-right" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M2 2l4 4-4 4" fill="none" stroke-linecap="square"></path>
+    </svg></button></li></ul>
+      </div><div class="mobile-menu__section mobile-menu__section--loose">
+          <p class="mobile-menu__section-title heading h5">Need help?</p><div class="mobile-menu__help-wrapper"><svg focusable="false" class="icon icon--bi-phone" viewBox="0 0 24 24" role="presentation">
+      <g stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <path d="M17 15l-3 3-8-8 3-3-5-5-3 3c0 9.941 8.059 18 18 18l3-3-5-5z" stroke="#000000"></path>
+        <path d="M14 1c4.971 0 9 4.029 9 9m-9-5c2.761 0 5 2.239 5 5" stroke="#db0000"></path>
+      </g>
+    </svg><span>+96176760108</span>
+            </div><div class="mobile-menu__help-wrapper"><svg focusable="false" class="icon icon--bi-email" viewBox="0 0 22 22" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path stroke="#db0000" d="M.916667 10.08333367l3.66666667-2.65833334v4.65849997zm20.1666667 0L17.416667 7.42500033v4.65849997z"></path>
+        <path stroke="#000000" stroke-width="2" d="M4.58333367 7.42500033L.916667 10.08333367V21.0833337h20.1666667V10.08333367L17.416667 7.42500033"></path>
+        <path stroke="#000000" stroke-width="2" d="M4.58333367 12.1000003V.916667H17.416667v11.1833333m-16.5-2.01666663L21.0833337 21.0833337m0-11.00000003L11.0000003 15.5833337"></path>
+        <path d="M8.25000033 5.50000033h5.49999997M8.25000033 9.166667h5.49999997" stroke="#db0000" stroke-width="2" stroke-linecap="square"></path>
+      </g>
+    </svg><a href="mailto:support@gamers-stop.com">support@gamers-stop.com</a>
+            </div></div><div class="mobile-menu__section mobile-menu__section--loose">
+          <p class="mobile-menu__section-title heading h5">Follow Us</p><ul class="social-media__item-list social-media__item-list--stack list--unstyled" role="list">
+    <li class="social-media__item social-media__item--facebook">
+      <a href="https://m.facebook.com/gamers.stop.lb" target="_blank" rel="noopener" aria-label="Follow us on Facebook"><svg focusable="false" class="icon icon--facebook" viewBox="0 0 30 30">
+      <path d="M15 30C6.71572875 30 0 23.2842712 0 15 0 6.71572875 6.71572875 0 15 0c8.2842712 0 15 6.71572875 15 15 0 8.2842712-6.7157288 15-15 15zm3.2142857-17.1429611h-2.1428678v-2.1425646c0-.5852979.8203285-1.07160109 1.0714928-1.07160109h1.071375v-2.1428925h-2.1428678c-2.3564786 0-3.2142536 1.98610393-3.2142536 3.21449359v2.1425646h-1.0714822l.0032143 2.1528011 1.0682679-.0099086v7.499969h3.2142536v-7.499969h2.1428678v-2.1428925z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg>Facebook</a>
+    </li>
+
+    
+<li class="social-media__item social-media__item--instagram">
+      <a href="https://www.instagram.com/gamers.stop.lb/" target="_blank" rel="noopener" aria-label="Follow us on Instagram"><svg focusable="false" class="icon icon--instagram" role="presentation" viewBox="0 0 30 30">
+      <path d="M15 30C6.71572875 30 0 23.2842712 0 15 0 6.71572875 6.71572875 0 15 0c8.2842712 0 15 6.71572875 15 15 0 8.2842712-6.7157288 15-15 15zm.0000159-23.03571429c-2.1823849 0-2.4560363.00925037-3.3131306.0483571-.8553081.03901103-1.4394529.17486384-1.9505835.37352345-.52841925.20532625-.9765517.48009406-1.42331254.926823-.44672894.44676084-.72149675.89489329-.926823 1.42331254-.19865961.5111306-.33451242 1.0952754-.37352345 1.9505835-.03910673.8570943-.0483571 1.1307457-.0483571 3.3131306 0 2.1823531.00925037 2.4560045.0483571 3.3130988.03901103.8553081.17486384 1.4394529.37352345 1.9505835.20532625.5284193.48009406.9765517.926823 1.4233125.44676084.446729.89489329.7214968 1.42331254.9268549.5111306.1986278 1.0952754.3344806 1.9505835.3734916.8570943.0391067 1.1307457.0483571 3.3131306.0483571 2.1823531 0 2.4560045-.0092504 3.3130988-.0483571.8553081-.039011 1.4394529-.1748638 1.9505835-.3734916.5284193-.2053581.9765517-.4801259 1.4233125-.9268549.446729-.4467608.7214968-.8948932.9268549-1.4233125.1986278-.5111306.3344806-1.0952754.3734916-1.9505835.0391067-.8570943.0483571-1.1307457.0483571-3.3130988 0-2.1823849-.0092504-2.4560363-.0483571-3.3131306-.039011-.8553081-.1748638-1.4394529-.3734916-1.9505835-.2053581-.52841925-.4801259-.9765517-.9268549-1.42331254-.4467608-.44672894-.8948932-.72149675-1.4233125-.926823-.5111306-.19865961-1.0952754-.33451242-1.9505835-.37352345-.8570943-.03910673-1.1307457-.0483571-3.3130988-.0483571zm0 1.44787387c2.1456068 0 2.3997686.00819774 3.2471022.04685789.7834742.03572556 1.2089592.1666342 1.4921162.27668167.3750864.14577303.6427729.31990322.9239522.60111439.2812111.28117926.4553413.54886575.6011144.92395217.1100474.283157.2409561.708642.2766816 1.4921162.0386602.8473336.0468579 1.1014954.0468579 3.247134 0 2.1456068-.0081977 2.3997686-.0468579 3.2471022-.0357255.7834742-.1666342 1.2089592-.2766816 1.4921162-.1457731.3750864-.3199033.6427729-.6011144.9239522-.2811793.2812111-.5488658.4553413-.9239522.6011144-.283157.1100474-.708642.2409561-1.4921162.2766816-.847206.0386602-1.1013359.0468579-3.2471022.0468579-2.1457981 0-2.3998961-.0081977-3.247134-.0468579-.7834742-.0357255-1.2089592-.1666342-1.4921162-.2766816-.37508642-.1457731-.64277291-.3199033-.92395217-.6011144-.28117927-.2811793-.45534136-.5488658-.60111439-.9239522-.11004747-.283157-.24095611-.708642-.27668167-1.4921162-.03866015-.8473336-.04685789-1.1014954-.04685789-3.2471022 0-2.1456386.00819774-2.3998004.04685789-3.247134.03572556-.7834742.1666342-1.2089592.27668167-1.4921162.14577303-.37508642.31990322-.64277291.60111439-.92395217.28117926-.28121117.54886575-.45534136.92395217-.60111439.283157-.11004747.708642-.24095611 1.4921162-.27668167.8473336-.03866015 1.1014954-.04685789 3.247134-.04685789zm0 9.26641182c-1.479357 0-2.6785873-1.1992303-2.6785873-2.6785555 0-1.479357 1.1992303-2.6785873 2.6785873-2.6785873 1.4793252 0 2.6785555 1.1992303 2.6785555 2.6785873 0 1.4793252-1.1992303 2.6785555-2.6785555 2.6785555zm0-6.8050167c-2.2790034 0-4.1264612 1.8474578-4.1264612 4.1264612 0 2.2789716 1.8474578 4.1264294 4.1264612 4.1264294 2.2789716 0 4.1264294-1.8474578 4.1264294-4.1264294 0-2.2790034-1.8474578-4.1264612-4.1264294-4.1264612zm5.2537621-.1630297c0-.532566-.431737-.96430298-.964303-.96430298-.532534 0-.964271.43173698-.964271.96430298 0 .5325659.431737.964271.964271.964271.532566 0 .964303-.4317051.964303-.964271z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg>Instagram</a>
+    </li>
+
+    
+<li class="social-media__item social-media__item--tiktok">
+      <a href="https://www.tiktok.com/@gamers.stop.lb?_t=8X1pI0Pd82E&_r=1" target="_blank" rel="noopener" aria-label="Follow us on TikTok"><svg focusable="false" class="icon icon--tiktok" viewBox="0 0 30 30">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M30 15c0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15C0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15zm-7.902-1.966c.133 0 .267-.007.4-.02h.002v-2.708a4.343 4.343 0 01-4.002-3.877h-2.332l-.024 11.363c0 1.394-1.231 2.493-2.625 2.493a2.524 2.524 0 010-5.048c.077 0 .152.01.227.02l.078.01v-2.436a3.334 3.334 0 00-.306-.016 4.945 4.945 0 104.946 4.945v-6.69a4.345 4.345 0 003.636 1.964z" fill="currentColor"></path>
+    </svg>TikTok</a>
+    </li>
+
+    
+
+  </ul></div></div><div id="mobile-panel-1" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./collections/nintendo-switch-2.html" class="mobile-menu__nav-link text--strong">Nintendo Switch 2</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-2-consoles.html" class="mobile-menu__nav-link" data-type="menuitem">Consoles</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-2-games.html" class="mobile-menu__nav-link" data-type="menuitem">Games</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-2-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-2-accessories.html" class="mobile-menu__nav-link" data-type="menuitem">Accessories</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-eshop-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Gift Cards</a></li></ul></div>
+        </div><div id="mobile-panel-2" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./collections/consoles.html" class="mobile-menu__nav-link text--strong">Nintendo Switch</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/consoles.html" class="mobile-menu__nav-link" data-type="menuitem">Consoles</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-games.html" class="mobile-menu__nav-link" data-type="menuitem">Games</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-switch-accessories.html" class="mobile-menu__nav-link" data-type="menuitem">Accessories</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-eshop-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Gift Cards</a></li></ul></div>
+        </div><div id="mobile-panel-3" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./collections/playstation-5-consoles.html" class="mobile-menu__nav-link text--strong">PlayStation 5</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/playstation-5-consoles.html" class="mobile-menu__nav-link" data-type="menuitem">Consoles</a></li><li class="mobile-menu__nav-item"><a href="./collections/playstation-5-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/playstation-5-games.html" class="mobile-menu__nav-link" data-type="menuitem">Games</a></li><li class="mobile-menu__nav-item"><a href="./collections/ps-vr2.html" class="mobile-menu__nav-link" data-type="menuitem">PS VR2</a></li><li class="mobile-menu__nav-item"><a href="./collections/ps-portal.html" class="mobile-menu__nav-link" data-type="menuitem">PS Portal</a></li><li class="mobile-menu__nav-item"><a href="./collections/ps5-ps4-headsets.html" class="mobile-menu__nav-link" data-type="menuitem">Headsets</a></li><li class="mobile-menu__nav-item"><a href="./collections/playstation-5-accessories.html" class="mobile-menu__nav-link" data-type="menuitem">Accessories</a></li><li class="mobile-menu__nav-item"><a href="./collections/gift-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Gift Cards</a></li></ul></div>
+        </div><div id="mobile-panel-4" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./collections/playstation-consoles.html" class="mobile-menu__nav-link text--strong">PlayStation 4</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/playstation-consoles.html" class="mobile-menu__nav-link" data-type="menuitem">Consoles</a></li><li class="mobile-menu__nav-item"><a href="./collections/ps4-games.html" class="mobile-menu__nav-link" data-type="menuitem">Games</a></li><li class="mobile-menu__nav-item"><a href="./collections/playstation-4-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/ps5-ps4-headsets.html" class="mobile-menu__nav-link" data-type="menuitem">Headsets</a></li><li class="mobile-menu__nav-item"><a href="./collections/playstation-4-accessories.html" class="mobile-menu__nav-link" data-type="menuitem">Accessories</a></li><li class="mobile-menu__nav-item"><a href="./collections/gift-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Gift Cards</a></li></ul></div>
+        </div><div id="mobile-panel-5" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./collections/xbox-consoles.html" class="mobile-menu__nav-link text--strong">XBOX</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/xbox-consoles.html" class="mobile-menu__nav-link" data-type="menuitem">Consoles</a></li><li class="mobile-menu__nav-item"><a href="./collections/xbox-games.html" class="mobile-menu__nav-link" data-type="menuitem">Games</a></li><li class="mobile-menu__nav-item"><a href="./collections/xbox-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/xbox-accessories-1.html" class="mobile-menu__nav-link" data-type="menuitem">Accessories</a></li><li class="mobile-menu__nav-item"><a href="./collections/xbox-live-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Gift Cards</a></li></ul></div>
+        </div><div id="mobile-panel-6" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./" class="mobile-menu__nav-link text--strong">Gamers Setup</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/gaming-headsets.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming Headsets</a></li><li class="mobile-menu__nav-item"><a href="./collections/gaming-keyboards.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming Keyboards </a></li><li class="mobile-menu__nav-item"><a href="./collections/gaming-mice.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming Mice</a></li><li class="mobile-menu__nav-item"><a href="./collections/gaming-monitors.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming Monitors</a></li><li class="mobile-menu__nav-item"><a href="./collections/mouse-pads.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming MousePads</a></li><li class="mobile-menu__nav-item"><a href="./collections/gaming-speakers.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming Speakers</a></li><li class="mobile-menu__nav-item"><a href="./collections/gaming-chairs-desks.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming Chairs & Desks</a></li><li class="mobile-menu__nav-item"><a href="./collections/gaming-streaming-microphones.html" class="mobile-menu__nav-link" data-type="menuitem">Gaming/Streaming Microphones</a></li><li class="mobile-menu__nav-item"><a href="./collections/pc-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">PC Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/pc-racing-wheels.html" class="mobile-menu__nav-link" data-type="menuitem">PC Racing Wheels</a></li><li class="mobile-menu__nav-item"><a href="./collections/laptop-cooling-pads.html" class="mobile-menu__nav-link" data-type="menuitem">Laptop Cooling Pads</a></li><li class="mobile-menu__nav-item"><a href="./collections/other-accessories.html" class="mobile-menu__nav-link" data-type="menuitem">Other Gaming Accessories</a></li></ul></div>
+        </div><div id="mobile-panel-7" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./collections/mobile-accessories-2.html" class="mobile-menu__nav-link text--strong">Mobile Accessories</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/mobile-controllers.html" class="mobile-menu__nav-link" data-type="menuitem">Controllers</a></li><li class="mobile-menu__nav-item"><a href="./collections/power-banks.html" class="mobile-menu__nav-link" data-type="menuitem">Power Banks</a></li><li class="mobile-menu__nav-item"><a href="./collections/microphones.html" class="mobile-menu__nav-link" data-type="menuitem">Microphones</a></li><li class="mobile-menu__nav-item"><a href="./collections/adapters-cables.html" class="mobile-menu__nav-link" data-type="menuitem">Adapters & Cables</a></li><li class="mobile-menu__nav-item"><a href="./collections/bluetooth-speakers.html" class="mobile-menu__nav-link" data-type="menuitem">Bluetooth Speakers</a></li><li class="mobile-menu__nav-item"><a href="./collections/holders-stands.html" class="mobile-menu__nav-link" data-type="menuitem">Holders & Stands</a></li><li class="mobile-menu__nav-item"><a href="./collections/mobile-accessories-1.html" class="mobile-menu__nav-link" data-type="menuitem">Headphones & Earbuds</a></li></ul></div>
+        </div><div id="mobile-panel-14" class="mobile-menu__panel is-nested">
+          <div class="mobile-menu__section is-sticky">
+            <button class="mobile-menu__back-button" data-action="close-panel"><svg focusable="false" class="icon icon--arrow-left" viewBox="0 0 8 12" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M6 10L2 6l4-4" fill="none" stroke-linecap="square"></path>
+    </svg> Back</button>
+          </div>
+
+          <div class="mobile-menu__section"><ul class="mobile-menu__nav" data-type="menu" role="list">
+                <li class="mobile-menu__nav-item">
+                  <a href="./search.html" class="mobile-menu__nav-link text--strong">Gift Cards</a>
+                </li><li class="mobile-menu__nav-item"><a href="./collections/gift-cards.html" class="mobile-menu__nav-link" data-type="menuitem">PlayStation</a></li><li class="mobile-menu__nav-item"><a href="./collections/nintendo-eshop-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Nintendo</a></li><li class="mobile-menu__nav-item"><a href="./collections/xbox-live-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Xbox</a></li><li class="mobile-menu__nav-item"><a href="./collections/roblox-gift-cards.html" class="mobile-menu__nav-link" data-type="menuitem">Other</a></li></ul></div>
+        </div></div>
+</div></nav><div class="header__logo"><a href="./" class="header__logo-link"><img class="header__logo-image"
+                   style="max-width: 130px"
+                   width="763"
+                   height="167"
+                   src="./game-target-logo.jpg"
+                   alt="Game Target"></a></div><div class="header__search-bar-wrapper is-visible">
+          <form action="./search.html" method="get" role="search" class="search-bar"><div class="search-bar__top-wrapper">
+              <div class="search-bar__top">
+                <input type="hidden" name="type" value="product">
+                <input type="hidden" name="options[prefix]" value="last">
+
+                <div class="search-bar__input-wrapper">
+                  <input class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="Search..." placeholder="Search...">
+                  <button type="button" class="search-bar__input-clear hidden-lap-and-up" data-action="clear-input">
+                    <span class="visually-hidden">Clear</span>
+                    <svg focusable="false" class="icon icon--close" viewBox="0 0 19 19" role="presentation">
+      <path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg>
+                  </button>
+                </div><button type="submit" class="search-bar__submit" aria-label="Search"><svg focusable="false" class="icon icon--search" viewBox="0 0 21 21" role="presentation">
+      <g stroke-width="2" stroke="currentColor" fill="none" fill-rule="evenodd">
+        <path d="M19 19l-5-5" stroke-linecap="square"></path>
+        <circle cx="8.5" cy="8.5" r="7.5"></circle>
+      </g>
+    </svg><svg focusable="false" class="icon icon--search-loader" viewBox="0 0 64 64" role="presentation">
+      <path opacity=".4" d="M23.8589104 1.05290547C40.92335108-3.43614731 58.45816642 6.79494359 62.94709453 23.8589104c4.48905278 17.06444068-5.74156424 34.59913135-22.80600493 39.08818413S5.54195825 57.2055303 1.05290547 40.1410896C-3.43602265 23.0771228 6.7944697 5.54195825 23.8589104 1.05290547zM38.6146353 57.1445143c13.8647142-3.64731754 22.17719655-17.89443541 18.529879-31.75914961-3.64743965-13.86517841-17.8944354-22.17719655-31.7591496-18.529879S3.20804604 24.7494569 6.8554857 38.6146353c3.64731753 13.8647142 17.8944354 22.17719655 31.7591496 18.529879z"></path>
+      <path d="M1.05290547 40.1410896l5.80258022-1.5264543c3.64731754 13.8647142 17.89443541 22.17719655 31.75914961 18.529879l1.5264543 5.80258023C23.07664892 67.43614731 5.54195825 57.2055303 1.05290547 40.1410896z"></path>
+    </svg></button>
+              </div>
+
+              <button type="button" class="search-bar__close-button hidden-tablet-and-up" data-action="unfix-search">
+                <span class="search-bar__close-text">Close</span>
+              </button>
+            </div>
+
+            <div class="search-bar__inner">
+              <div class="search-bar__inner-animation">
+                <div class="search-bar__results" aria-hidden="true">
+                  <div class="skeleton-container"><div class="search-bar__result-item search-bar__result-item--skeleton">
+                        <div class="search-bar__image-container">
+                          <div class="aspect-ratio aspect-ratio--square">
+                            <div class="skeleton-image"></div>
+                          </div>
+                        </div>
+
+                        <div class="search-bar__item-info">
+                          <div class="skeleton-paragraph">
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                          </div>
+                        </div>
+                      </div><div class="search-bar__result-item search-bar__result-item--skeleton">
+                        <div class="search-bar__image-container">
+                          <div class="aspect-ratio aspect-ratio--square">
+                            <div class="skeleton-image"></div>
+                          </div>
+                        </div>
+
+                        <div class="search-bar__item-info">
+                          <div class="skeleton-paragraph">
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                          </div>
+                        </div>
+                      </div><div class="search-bar__result-item search-bar__result-item--skeleton">
+                        <div class="search-bar__image-container">
+                          <div class="aspect-ratio aspect-ratio--square">
+                            <div class="skeleton-image"></div>
+                          </div>
+                        </div>
+
+                        <div class="search-bar__item-info">
+                          <div class="skeleton-paragraph">
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                          </div>
+                        </div>
+                      </div></div>
+
+                  <div class="search-bar__results-inner"></div>
+                </div></div>
+            </div>
+          </form>
+        </div><div class="header__action-list"><div class="header__action-item header__action-item--account"><span class="header__action-item-title hidden-pocket hidden-lap">Login / Signup</span><div class="header__action-item-content">
+                <a href="./account/login" class="header__action-item-link header__account-icon icon-state hidden-desk" aria-label="My account" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover" >
+                  <span class="icon-state__primary"><svg focusable="false" class="icon icon--account" viewBox="0 0 20 22" role="presentation">
+      <path d="M10 13c2.82 0 5.33.64 6.98 1.2A3 3 0 0 1 19 17.02V21H1v-3.97a3 3 0 0 1 2.03-2.84A22.35 22.35 0 0 1 10 13zm0 0c-2.76 0-5-3.24-5-6V6a5 5 0 0 1 10 0v1c0 2.76-2.24 6-5 6z" stroke="currentColor" stroke-width="2" fill="none"></path>
+    </svg></span>
+                  <span class="icon-state__secondary"><svg focusable="false" class="icon icon--close" viewBox="0 0 19 19" role="presentation">
+      <path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></span>
+                </a>
+
+                <a href="./account/login" class="header__action-item-link hidden-pocket hidden-lap" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover">My account <svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg></a>
+
+                <div id="account-popover" class="popover popover--large popover--unlogged" aria-hidden="true"><svg focusable="false" class="icon icon--nav-triangle-borderless" viewBox="0 0 20 9" role="presentation">
+      <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+    </svg><div class="popover__panel-list"><div id="header-login-panel" class="popover__panel popover__panel--default is-selected">
+                        <div class="popover__inner"><form method="post" action="/account/login" id="header_customer_login" accept-charset="UTF-8" data-login-with-shop-sign-in="true" name="login" class="form"><input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" /><header class="popover__header">
+                              <h2 class="popover__title heading">Login to my account</h2>
+                              <p class="popover__legend">Enter your e-mail and password:</p>
+                            </header>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input type="email" id="login-customer[email]" class="form__field form__field--text" name="customer[email]" required="required">
+                              <label for="login-customer[email]" class="form__floating-label">Email</label>
+                            </div>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input type="password" id="login-customer[password]" class="form__field form__field--text" name="customer[password]" required="required" autocomplete="current-password">
+                              <label for="login-customer[password]" class="form__floating-label">Password</label>
+                            </div>
+
+                            <button type="submit" class="form__submit button button--primary button--full">Login</button></form><div class="popover__secondary-action">
+                            <p>New customer? <button data-action="show-popover-panel" aria-controls="header-register-panel" class="link link--accented">Create your account</button></p>
+                            <p>Lost password? <a href="./account#recover-password" aria-controls="header-recover-panel" class="link link--accented">Recover password</a></p>
+                          </div>
+                        </div>
+                      </div><div id="header-recover-panel" class="popover__panel popover__panel--sliding">
+                        <div class="popover__inner"><form method="post" action="/account/recover" accept-charset="UTF-8" name="recover" class="form"><input type="hidden" name="form_type" value="recover_customer_password" /><input type="hidden" name="utf8" value="✓" /><header class="popover__header">
+                              <h2 class="popover__title heading">Recover password</h2>
+                              <p class="popover__legend">Enter your email:</p>
+                            </header>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input type="email" id="recover-customer[recover_email]" class="form__field form__field--text" name="email" required="required">
+                              <label for="recover-customer[recover_email]" class="form__floating-label">Email</label>
+                            </div>
+
+                            <button type="submit" class="form__submit button button--primary button--full">Recover</button></form><div class="popover__secondary-action">
+                            <p>Remembered your password? <button data-action="show-popover-panel" aria-controls="header-login-panel" class="link link--accented">Back to login</button></p>
+                          </div>
+                        </div>
+                      </div><div id="header-register-panel" class="popover__panel popover__panel--sliding">
+                        <div class="popover__inner"><form method="post" action="/account" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true" name="create" class="form"><input type="hidden" name="form_type" value="create_customer" /><input type="hidden" name="utf8" value="✓" /><header class="popover__header">
+                              <h2 class="popover__title heading">Create my account</h2>
+                              <p class="popover__legend">Please fill in the information below:</p>
+                            </header><div class="form__input-wrapper form__input-wrapper--labelled">
+                                <input type="text" id="customer[first_name]" class="form__field form__field--text" name="customer[first_name]" autocomplete="given-name" required="required">
+                                <label for="customer[first_name]" class="form__floating-label">First name</label>
+                              </div>
+
+                              <div class="form__input-wrapper form__input-wrapper--labelled">
+                                <input type="text" id="customer[last_name]" class="form__field form__field--text" name="customer[last_name]" autocomplete="family-name" required="required">
+                                <label for="customer[last_name]" class="form__floating-label">Last name</label>
+                              </div><div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input type="email" id="register-customer[email]" class="form__field form__field--text" name="customer[email]" required="required">
+                              <label for="register-customer[email]" class="form__floating-label">Email</label>
+                            </div>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input type="password" id="register-customer[password]" class="form__field form__field--text" name="customer[password]" required="required" autocomplete="new-password">
+                              <label for="register-customer[password]" class="form__floating-label">Password</label>
+                            </div>
+
+                            <button type="submit" class="form__submit button button--primary button--full">Create my account</button></form><div class="popover__secondary-action">
+                            <p>Already have an account? <button data-action="show-popover-panel" aria-controls="header-login-panel" class="link link--accented">Login here</button></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+            </div><div class="header__action-item header__action-item--cart">
+            <a class="header__action-item-link header__cart-toggle" href="./cart.html" aria-controls="mini-cart" aria-expanded="false" data-action="toggle-mini-cart" data-no-instant>
+              <div class="header__action-item-content">
+                <div class="header__cart-icon icon-state" aria-expanded="false">
+                  <span class="icon-state__primary"><svg focusable="false" class="icon icon--cart" viewBox="0 0 27 24" role="presentation">
+      <g transform="translate(0 1)" stroke-width="2" stroke="currentColor" fill="none" fill-rule="evenodd">
+        <circle stroke-linecap="square" cx="11" cy="20" r="2"></circle>
+        <circle stroke-linecap="square" cx="22" cy="20" r="2"></circle>
+        <path d="M7.31 5h18.27l-1.44 10H9.78L6.22 0H0"></path>
+      </g>
+    </svg><span class="header__cart-count">0</span>
+                  </span>
+
+                  <span class="icon-state__secondary"><svg focusable="false" class="icon icon--close" viewBox="0 0 19 19" role="presentation">
+      <path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></span>
+                </div>
+
+                <span class="hidden-pocket hidden-lap">Cart</span>
+              </div>
+            </a><form method="post" action="./cart.html" id="mini-cart" class="mini-cart" aria-hidden="true" novalidate="novalidate" data-item-count="0">
+  <input type="hidden" name="attributes[collection_products_per_page]" value="">
+  <input type="hidden" name="attributes[collection_layout]" value=""><svg focusable="false" class="icon icon--nav-triangle-borderless" viewBox="0 0 20 9" role="presentation">
+      <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+    </svg><div class="mini-cart__content mini-cart__content--empty"><div class="mini-cart__empty-state"><svg focusable="false" width="81" height="70" viewBox="0 0 81 70">
+      <g transform="translate(0 2)" stroke-width="4" stroke="#000000" fill="none" fill-rule="evenodd">
+        <circle stroke-linecap="square" cx="34" cy="60" r="6"></circle>
+        <circle stroke-linecap="square" cx="67" cy="60" r="6"></circle>
+        <path d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"></path>
+      </g>
+    </svg><p class="heading h4">Your cart is empty</p>
+      </div>
+
+      <a href="./collections/all.html" class="button button--primary button--full">Shop our products</a>
+    </div></form>
+</div>
+        </div>
+      </div>
+    </div>
+  </header><nav class="nav-bar">
+      <div class="nav-bar__inner">
+        <div class="container">
+          <ul class="nav-bar__linklist list--unstyled" data-type="menu" role="list"><li class="nav-bar__item"><a href="./" class="nav-bar__link link" data-type="menuitem">Home</a></li><li class="nav-bar__item"><a href="./collections/nintendo-switch-2.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-2" aria-haspopup="true">Nintendo Switch 2<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-2" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-2-consoles.html" class="nav-dropdown__link link" data-type="menuitem">Consoles</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-2-games.html" class="nav-dropdown__link link" data-type="menuitem">Games</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-2-controllers.html" class="nav-dropdown__link link" data-type="menuitem">Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-2-accessories.html" class="nav-dropdown__link link" data-type="menuitem">Accessories</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-eshop-cards.html" class="nav-dropdown__link link" data-type="menuitem">Gift Cards</a></li></ul></li><li class="nav-bar__item"><a href="./collections/consoles.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-3" aria-haspopup="true">Nintendo Switch<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-3" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/consoles.html" class="nav-dropdown__link link" data-type="menuitem">Consoles</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-games.html" class="nav-dropdown__link link" data-type="menuitem">Games</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-controllers.html" class="nav-dropdown__link link" data-type="menuitem">Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-switch-accessories.html" class="nav-dropdown__link link" data-type="menuitem">Accessories</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-eshop-cards.html" class="nav-dropdown__link link" data-type="menuitem">Gift Cards</a></li></ul></li><li class="nav-bar__item"><a href="./collections/playstation-5-consoles.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-4" aria-haspopup="true">PlayStation 5<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-4" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/playstation-5-consoles.html" class="nav-dropdown__link link" data-type="menuitem">Consoles</a></li><li class="nav-dropdown__item "><a href="./collections/playstation-5-controllers.html" class="nav-dropdown__link link" data-type="menuitem">Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/playstation-5-games.html" class="nav-dropdown__link link" data-type="menuitem">Games</a></li><li class="nav-dropdown__item "><a href="./collections/ps-vr2.html" class="nav-dropdown__link link" data-type="menuitem">PS VR2</a></li><li class="nav-dropdown__item "><a href="./collections/ps-portal.html" class="nav-dropdown__link link" data-type="menuitem">PS Portal</a></li><li class="nav-dropdown__item "><a href="./collections/ps5-ps4-headsets.html" class="nav-dropdown__link link" data-type="menuitem">Headsets</a></li><li class="nav-dropdown__item "><a href="./collections/playstation-5-accessories.html" class="nav-dropdown__link link" data-type="menuitem">Accessories</a></li><li class="nav-dropdown__item "><a href="./collections/gift-cards.html" class="nav-dropdown__link link" data-type="menuitem">Gift Cards</a></li></ul></li><li class="nav-bar__item"><a href="./collections/playstation-consoles.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-5" aria-haspopup="true">PlayStation 4<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-5" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/playstation-consoles.html" class="nav-dropdown__link link" data-type="menuitem">Consoles</a></li><li class="nav-dropdown__item "><a href="./collections/ps4-games.html" class="nav-dropdown__link link" data-type="menuitem">Games</a></li><li class="nav-dropdown__item "><a href="./collections/playstation-4-controllers.html" class="nav-dropdown__link link" data-type="menuitem">Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/ps5-ps4-headsets.html" class="nav-dropdown__link link" data-type="menuitem">Headsets</a></li><li class="nav-dropdown__item "><a href="./collections/playstation-4-accessories.html" class="nav-dropdown__link link" data-type="menuitem">Accessories</a></li><li class="nav-dropdown__item "><a href="./collections/gift-cards.html" class="nav-dropdown__link link" data-type="menuitem">Gift Cards</a></li></ul></li><li class="nav-bar__item"><a href="./collections/xbox-consoles.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-6" aria-haspopup="true">XBOX<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-6" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/xbox-consoles.html" class="nav-dropdown__link link" data-type="menuitem">Consoles</a></li><li class="nav-dropdown__item "><a href="./collections/xbox-games.html" class="nav-dropdown__link link" data-type="menuitem">Games</a></li><li class="nav-dropdown__item "><a href="./collections/xbox-controllers.html" class="nav-dropdown__link link" data-type="menuitem">Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/xbox-accessories-1.html" class="nav-dropdown__link link" data-type="menuitem">Accessories</a></li><li class="nav-dropdown__item "><a href="./collections/xbox-live-cards.html" class="nav-dropdown__link link" data-type="menuitem">Gift Cards</a></li></ul></li><li class="nav-bar__item"><a href="./" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-7" aria-haspopup="true">Gamers Setup<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-7" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/gaming-headsets.html" class="nav-dropdown__link link" data-type="menuitem">Gaming Headsets</a></li><li class="nav-dropdown__item "><a href="./collections/gaming-keyboards.html" class="nav-dropdown__link link" data-type="menuitem">Gaming Keyboards </a></li><li class="nav-dropdown__item "><a href="./collections/gaming-mice.html" class="nav-dropdown__link link" data-type="menuitem">Gaming Mice</a></li><li class="nav-dropdown__item "><a href="./collections/gaming-monitors.html" class="nav-dropdown__link link" data-type="menuitem">Gaming Monitors</a></li><li class="nav-dropdown__item "><a href="./collections/mouse-pads.html" class="nav-dropdown__link link" data-type="menuitem">Gaming MousePads</a></li><li class="nav-dropdown__item "><a href="./collections/gaming-speakers.html" class="nav-dropdown__link link" data-type="menuitem">Gaming Speakers</a></li><li class="nav-dropdown__item "><a href="./collections/gaming-chairs-desks.html" class="nav-dropdown__link link" data-type="menuitem">Gaming Chairs & Desks</a></li><li class="nav-dropdown__item "><a href="./collections/gaming-streaming-microphones.html" class="nav-dropdown__link link" data-type="menuitem">Gaming/Streaming Microphones</a></li><li class="nav-dropdown__item "><a href="./collections/pc-controllers.html" class="nav-dropdown__link link" data-type="menuitem">PC Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/pc-racing-wheels.html" class="nav-dropdown__link link" data-type="menuitem">PC Racing Wheels</a></li><li class="nav-dropdown__item "><a href="./collections/laptop-cooling-pads.html" class="nav-dropdown__link link" data-type="menuitem">Laptop Cooling Pads</a></li><li class="nav-dropdown__item "><a href="./collections/other-accessories.html" class="nav-dropdown__link link" data-type="menuitem">Other Gaming Accessories</a></li></ul></li><li class="nav-bar__item"><a href="./collections/mobile-accessories-2.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-8" aria-haspopup="true">Mobile Accessories<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-8" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/mobile-controllers.html" class="nav-dropdown__link link" data-type="menuitem">Controllers</a></li><li class="nav-dropdown__item "><a href="./collections/power-banks.html" class="nav-dropdown__link link" data-type="menuitem">Power Banks</a></li><li class="nav-dropdown__item "><a href="./collections/microphones.html" class="nav-dropdown__link link" data-type="menuitem">Microphones</a></li><li class="nav-dropdown__item "><a href="./collections/adapters-cables.html" class="nav-dropdown__link link" data-type="menuitem">Adapters & Cables</a></li><li class="nav-dropdown__item "><a href="./collections/bluetooth-speakers.html" class="nav-dropdown__link link" data-type="menuitem">Bluetooth Speakers</a></li><li class="nav-dropdown__item "><a href="./collections/holders-stands.html" class="nav-dropdown__link link" data-type="menuitem">Holders & Stands</a></li><li class="nav-dropdown__item "><a href="./collections/mobile-accessories-1.html" class="nav-dropdown__link link" data-type="menuitem">Headphones & Earbuds</a></li></ul></li><li class="nav-bar__item"><a href="./collections/oculus-quest-2.html" class="nav-bar__link link" data-type="menuitem">Meta Quest VR</a></li><li class="nav-bar__item"><a href="./collections/steam-deck.html" class="nav-bar__link link" data-type="menuitem">Steam Deck</a></li><li class="nav-bar__item"><a href="./collections/asus-rog-xbox-ally.html" class="nav-bar__link link" data-type="menuitem">ASUS ROG Xbox Ally</a></li><li class="nav-bar__item"><a href="./collections/lightning.html" class="nav-bar__link link" data-type="menuitem">Lighting</a></li><li class="nav-bar__item"><a href="./collections/retro.html" class="nav-bar__link link" data-type="menuitem">Retro</a></li><li class="nav-bar__item"><a href="./collections/mobile-accessories.html" class="nav-bar__link link" data-type="menuitem">Electronics & Gadgets</a></li><li class="nav-bar__item"><a href="./search.html" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="desktop-menu-0-15" aria-haspopup="true">Gift Cards<svg focusable="false" class="icon icon--arrow-bottom" viewBox="0 0 12 8" role="presentation">
+      <path stroke="currentColor" stroke-width="2" d="M10 2L6 6 2 2" fill="none" stroke-linecap="square"></path>
+    </svg><svg focusable="false" class="icon icon--nav-triangle" viewBox="0 0 20 9" role="presentation">
+      <g fill="none" fill-rule="evenodd">
+        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+        <path d="M-.00922471 9C1.38887087 7.61849126 4.26661926 4.80337304 8.62402045.5546454c.75993175-.7409708 1.98812015-.7393145 2.74596565.0037073L19.9800494 9h-1.3748787l-7.9226239-7.7676545c-.3789219-.3715101-.9930172-.3723389-1.3729808-.0018557-3.20734177 3.1273507-5.6127118 5.4776841-7.21584193 7.05073579C1.82769633 8.54226204 1.58379521 8.7818599 1.36203986 9H-.00922471z" fill="#e1e3e4"></path>
+      </g>
+    </svg></a><ul id="desktop-menu-0-15" class="nav-dropdown nav-dropdown--restrict" data-type="menu" aria-hidden="true" role="list"><li class="nav-dropdown__item "><a href="./collections/gift-cards.html" class="nav-dropdown__link link" data-type="menuitem">PlayStation</a></li><li class="nav-dropdown__item "><a href="./collections/nintendo-eshop-cards.html" class="nav-dropdown__link link" data-type="menuitem">Nintendo</a></li><li class="nav-dropdown__item "><a href="./collections/xbox-live-cards.html" class="nav-dropdown__link link" data-type="menuitem">Xbox</a></li><li class="nav-dropdown__item "><a href="./collections/roblox-gift-cards.html" class="nav-dropdown__link link" data-type="menuitem">Other</a></li></ul></li></ul>
+        </div>
+      </div>
+    </nav></section>
+
+<style>
+  :root {
+    --header-is-sticky: 0;
+    --header-inline-navigation: 1;
+  }
+
+  #shopify-section-header {
+    position: relative;
+    z-index: 5;}.header__logo-image {
+      max-width: 125px !important;
+    }
+
+    @media screen and (min-width: 641px) {
+      .header__logo-image {
+        max-width: 130px !important;
+      }
+    }.search-bar__top {
+      box-shadow: 1px 1px var(--header-border-color) inset, -1px -1px var(--header-border-color) inset;
+    }
+
+    @media screen and (min-width: 1000px) {
+      /* This allows to reduce the padding if header background is the same as secondary background to avoid space that is too big */
+      .header:not(.header--condensed) {
+        padding-bottom: 0;
+      }
+    }</style>
+
+<script>
+  document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-header').clientHeight + 'px');
+</script>
+
+</div>
+
+    <main id="main" role="main">
+      <div id="shopify-section-search-template" class="shopify-section"><section data-section-id="search-template" data-section-type="collection" data-section-settings='{
+  "currentSortBy": "",
+  "currentTags": [],
+  "filterMode": "",
+  "defaultLayout": "grid",
+  "defaultProductsPerPage": 24,
+  "isAutomatic": true,
+  "gridClasses": "1\/3--tablet 1\/4--lap-and-up"
+}'>
+  <div class="container "><div class="empty-state">
+        <p class="empty-state__heading heading h1">Search</p>
+        <p class="empty-state__description">Search products using the search box in the header.</p>
+
+        <a href="./" class="empty-state__link link link--accented">or click here to go back home</a>
+      </div></div><div id="modal-quick-view-search-template" class="modal" aria-hidden="true">
+    <div class="modal__dialog modal__dialog--stretch" role="dialog">
+      <button class="modal__close link" data-action="close-modal" title="Close"><svg focusable="false" class="icon icon--close" viewBox="0 0 19 19" role="presentation">
+      <path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></button>
+
+      <div class="modal__loader"><svg focusable="false" class="icon icon--search-loader" viewBox="0 0 64 64" role="presentation">
+      <path opacity=".4" d="M23.8589104 1.05290547C40.92335108-3.43614731 58.45816642 6.79494359 62.94709453 23.8589104c4.48905278 17.06444068-5.74156424 34.59913135-22.80600493 39.08818413S5.54195825 57.2055303 1.05290547 40.1410896C-3.43602265 23.0771228 6.7944697 5.54195825 23.8589104 1.05290547zM38.6146353 57.1445143c13.8647142-3.64731754 22.17719655-17.89443541 18.529879-31.75914961-3.64743965-13.86517841-17.8944354-22.17719655-31.7591496-18.529879S3.20804604 24.7494569 6.8554857 38.6146353c3.64731753 13.8647142 17.8944354 22.17719655 31.7591496 18.529879z"></path>
+      <path d="M1.05290547 40.1410896l5.80258022-1.5264543c3.64731754 13.8647142 17.89443541 22.17719655 31.75914961 18.529879l1.5264543 5.80258023C23.07664892 67.43614731 5.54195825 57.2055303 1.05290547 40.1410896z"></path>
+    </svg></div>
+
+      <div class="modal__inner"></div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div id="shopify-section-static-promotion-list" class="shopify-section"></div>
+    </main><div id="shopify-section-text-with-icons" class="shopify-section"></div>
+    <div id="shopify-section-footer" class="shopify-section"><footer class="footer" data-section-id="footer" data-section-type="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__wrapper"><div class="footer__block-list"><div class="footer__block-item footer__block-item--links" >
+                    <button class="footer__title heading h6" disabled aria-expanded="false" aria-controls="block-footer-1" data-action="toggle-collapsible">
+                      <span>Information</span>
+                      <span class="plus-button"></span>
+                    </button>
+
+                    <div id="block-footer-1" class="footer__collapsible">
+                      <div class="footer__collapsible-content">
+                        <ul class="footer__linklist list--unstyled" role="list"><li>
+                              <a href="./pages/about-us" class="footer__link-item link">About Us</a>
+                            </li><li>
+                              <a href="./pages/contact-us" class="footer__link-item link">Contact Us</a>
+                            </li><li>
+                              <a href="./search.html" class="footer__link-item link">Search</a>
+                            </li><li>
+                              <a href="./policies/terms-of-service" class="footer__link-item link">Terms of Service</a>
+                            </li><li>
+                              <a href="./policies/refund-policy" class="footer__link-item link">Refund policy</a>
+                            </li></ul>
+                      </div>
+                    </div>
+                  </div><div class="footer__block-item footer__block-item--links" >
+                    <button class="footer__title heading h6" disabled aria-expanded="false" aria-controls="block-8b739c27-da04-46bc-96a6-99e2401a15cc" data-action="toggle-collapsible">
+                      <span>Customer Service</span>
+                      <span class="plus-button"></span>
+                    </button>
+
+                    <div id="block-8b739c27-da04-46bc-96a6-99e2401a15cc" class="footer__collapsible">
+                      <div class="footer__collapsible-content">
+                        <ul class="footer__linklist list--unstyled" role="list"><li>
+                              <a href="./pages/payment-methods" class="footer__link-item link">Payment Methods</a>
+                            </li><li>
+                              <a href="./policies/shipping-policy" class="footer__link-item link">Delivery & Shipping</a>
+                            </li><li>
+                              <a href="./policies/refund-policy" class="footer__link-item link">Refund Policy</a>
+                            </li></ul>
+                      </div>
+                    </div>
+                  </div><div class="footer__block-item footer__block-item--newsletter" >
+                  <p class="footer__title heading h6">Newsletter</p>
+
+                  <div class="footer__newsletter-wrapper"><div class="footer__newsletter-text rte"><p>Subscribe to get notified about product launches, special offers and news.</p></div><form method="post" action="/contact#footer-newsletter" id="footer-newsletter" accept-charset="UTF-8" class="footer__newsletter-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="contact[tags]" value="newsletter">
+
+                        <div class="form__input-wrapper form__input-wrapper--labelled">
+                          <input type="email" id="footer[contact][email]" name="contact[email]" class="form__field form__field--text" required="">
+                          <label for="footer[contact][email]" class="form__floating-label">Your email</label>
+                        </div>
+
+                        <button type="submit" class="form__submit form__submit--tight button button--primary">Subscribe</button></form></div>
+                </div></div><aside class="footer__aside"><div class="footer__aside-item footer__aside-item--localization"><p class="hidden-pocket">© 2026 Game Target<br><a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></p>
+        </div><div class="footer__aside-item footer__aside-item--social">
+              <p class="footer__aside-title">Follow Us</p>
+
+              <ul class="social-media__item-list  list--unstyled" role="list">
+    <li class="social-media__item social-media__item--facebook">
+      <a href="https://m.facebook.com/gamers.stop.lb" target="_blank" rel="noopener" aria-label="Follow us on Facebook"><svg focusable="false" class="icon icon--facebook" viewBox="0 0 30 30">
+      <path d="M15 30C6.71572875 30 0 23.2842712 0 15 0 6.71572875 6.71572875 0 15 0c8.2842712 0 15 6.71572875 15 15 0 8.2842712-6.7157288 15-15 15zm3.2142857-17.1429611h-2.1428678v-2.1425646c0-.5852979.8203285-1.07160109 1.0714928-1.07160109h1.071375v-2.1428925h-2.1428678c-2.3564786 0-3.2142536 1.98610393-3.2142536 3.21449359v2.1425646h-1.0714822l.0032143 2.1528011 1.0682679-.0099086v7.499969h3.2142536v-7.499969h2.1428678v-2.1428925z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></a>
+    </li>
+
+    
+<li class="social-media__item social-media__item--instagram">
+      <a href="https://www.instagram.com/gamers.stop.lb/" target="_blank" rel="noopener" aria-label="Follow us on Instagram"><svg focusable="false" class="icon icon--instagram" role="presentation" viewBox="0 0 30 30">
+      <path d="M15 30C6.71572875 30 0 23.2842712 0 15 0 6.71572875 6.71572875 0 15 0c8.2842712 0 15 6.71572875 15 15 0 8.2842712-6.7157288 15-15 15zm.0000159-23.03571429c-2.1823849 0-2.4560363.00925037-3.3131306.0483571-.8553081.03901103-1.4394529.17486384-1.9505835.37352345-.52841925.20532625-.9765517.48009406-1.42331254.926823-.44672894.44676084-.72149675.89489329-.926823 1.42331254-.19865961.5111306-.33451242 1.0952754-.37352345 1.9505835-.03910673.8570943-.0483571 1.1307457-.0483571 3.3131306 0 2.1823531.00925037 2.4560045.0483571 3.3130988.03901103.8553081.17486384 1.4394529.37352345 1.9505835.20532625.5284193.48009406.9765517.926823 1.4233125.44676084.446729.89489329.7214968 1.42331254.9268549.5111306.1986278 1.0952754.3344806 1.9505835.3734916.8570943.0391067 1.1307457.0483571 3.3131306.0483571 2.1823531 0 2.4560045-.0092504 3.3130988-.0483571.8553081-.039011 1.4394529-.1748638 1.9505835-.3734916.5284193-.2053581.9765517-.4801259 1.4233125-.9268549.446729-.4467608.7214968-.8948932.9268549-1.4233125.1986278-.5111306.3344806-1.0952754.3734916-1.9505835.0391067-.8570943.0483571-1.1307457.0483571-3.3130988 0-2.1823849-.0092504-2.4560363-.0483571-3.3131306-.039011-.8553081-.1748638-1.4394529-.3734916-1.9505835-.2053581-.52841925-.4801259-.9765517-.9268549-1.42331254-.4467608-.44672894-.8948932-.72149675-1.4233125-.926823-.5111306-.19865961-1.0952754-.33451242-1.9505835-.37352345-.8570943-.03910673-1.1307457-.0483571-3.3130988-.0483571zm0 1.44787387c2.1456068 0 2.3997686.00819774 3.2471022.04685789.7834742.03572556 1.2089592.1666342 1.4921162.27668167.3750864.14577303.6427729.31990322.9239522.60111439.2812111.28117926.4553413.54886575.6011144.92395217.1100474.283157.2409561.708642.2766816 1.4921162.0386602.8473336.0468579 1.1014954.0468579 3.247134 0 2.1456068-.0081977 2.3997686-.0468579 3.2471022-.0357255.7834742-.1666342 1.2089592-.2766816 1.4921162-.1457731.3750864-.3199033.6427729-.6011144.9239522-.2811793.2812111-.5488658.4553413-.9239522.6011144-.283157.1100474-.708642.2409561-1.4921162.2766816-.847206.0386602-1.1013359.0468579-3.2471022.0468579-2.1457981 0-2.3998961-.0081977-3.247134-.0468579-.7834742-.0357255-1.2089592-.1666342-1.4921162-.2766816-.37508642-.1457731-.64277291-.3199033-.92395217-.6011144-.28117927-.2811793-.45534136-.5488658-.60111439-.9239522-.11004747-.283157-.24095611-.708642-.27668167-1.4921162-.03866015-.8473336-.04685789-1.1014954-.04685789-3.2471022 0-2.1456386.00819774-2.3998004.04685789-3.247134.03572556-.7834742.1666342-1.2089592.27668167-1.4921162.14577303-.37508642.31990322-.64277291.60111439-.92395217.28117926-.28121117.54886575-.45534136.92395217-.60111439.283157-.11004747.708642-.24095611 1.4921162-.27668167.8473336-.03866015 1.1014954-.04685789 3.247134-.04685789zm0 9.26641182c-1.479357 0-2.6785873-1.1992303-2.6785873-2.6785555 0-1.479357 1.1992303-2.6785873 2.6785873-2.6785873 1.4793252 0 2.6785555 1.1992303 2.6785555 2.6785873 0 1.4793252-1.1992303 2.6785555-2.6785555 2.6785555zm0-6.8050167c-2.2790034 0-4.1264612 1.8474578-4.1264612 4.1264612 0 2.2789716 1.8474578 4.1264294 4.1264612 4.1264294 2.2789716 0 4.1264294-1.8474578 4.1264294-4.1264294 0-2.2790034-1.8474578-4.1264612-4.1264294-4.1264612zm5.2537621-.1630297c0-.532566-.431737-.96430298-.964303-.96430298-.532534 0-.964271.43173698-.964271.96430298 0 .5325659.431737.964271.964271.964271.532566 0 .964303-.4317051.964303-.964271z" fill="currentColor" fill-rule="evenodd"></path>
+    </svg></a>
+    </li>
+
+    
+<li class="social-media__item social-media__item--tiktok">
+      <a href="https://www.tiktok.com/@gamers.stop.lb?_t=8X1pI0Pd82E&_r=1" target="_blank" rel="noopener" aria-label="Follow us on TikTok"><svg focusable="false" class="icon icon--tiktok" viewBox="0 0 30 30">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M30 15c0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15C0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15zm-7.902-1.966c.133 0 .267-.007.4-.02h.002v-2.708a4.343 4.343 0 01-4.002-3.877h-2.332l-.024 11.363c0 1.394-1.231 2.493-2.625 2.493a2.524 2.524 0 010-5.048c.077 0 .152.01.227.02l.078.01v-2.436a3.334 3.334 0 00-.306-.016 4.945 4.945 0 104.946 4.945v-6.69a4.345 4.345 0 003.636 1.964z" fill="currentColor"></path>
+    </svg></a>
+    </li>
+
+    
+
+  </ul>
+            </div><div class="footer__aside-item footer__aside-item--copyright hidden-lap-and-up">
+          <p>© 2026 Game Target<br><a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></p>
+        </div>
+      </aside>
+    </div>
+  </div></footer>
+
+
+
+</div>
+
+    <ul hidden>
+      <li id="a11y-new-window-message">Opens in a new window.</li>
+    </ul>
+  <script>
+  window.shopifyMultiCurrencies = [];
+  
+      window.shopifyMultiCurrencies.push('USD');
+  
+  window.shopFormat = "$ {{amount_no_decimals}}";
+</script>
+
+<link type="text/css" rel="stylesheet" href=//www.gamers-stop.com/cdn/shop/t/5/assets/pb_custom.css?v=111603181540343972631613779554 async/><script src="https://cdn.shopify.com/storefront/standard-actions.js" type="module" data-source-attribution="shopify.standard_actions"></script>
+</body>
+</html>
+
   var wiredSearchInputs = new WeakSet();
   var wiredSearchResultLists = new WeakSet();
   var scriptUrl = document.currentScript && document.currentScript.src;
