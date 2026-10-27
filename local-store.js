@@ -4,6 +4,7 @@
   var storageKey = "gamers-stop-products";
   var cartStorageKey = "gamers-stop-cart";
   var activeProducts = [];
+  var siteCategories = [];
   var wiredSearchInputs = new WeakSet();
   var wiredSearchResultLists = new WeakSet();
   var scriptUrl = document.currentScript && document.currentScript.src;
@@ -974,6 +975,10 @@
       "html.local-search-page .search-bar__inner{display:none!important}",
       "#shopify-section-slideshow{margin-top:16px}",
       ".local-search-results h1{margin:0 0 22px;font-size:30px}",
+      ".local-search-results h2{margin:22px 0 12px;font-size:22px}",
+      ".local-search-category-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-bottom:24px}",
+      ".local-search-category{display:flex;min-height:54px;align-items:center;padding:12px 16px;border:1px solid #e1e3e4;background:#fff;color:#1e2d7d;font-weight:600;text-decoration:none}",
+      ".local-search-category:hover{border-color:#1e2d7d;background:#f3f5f6}",
       ".local-search-pagination{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:8px;margin:28px 0}",
       ".local-search-pagination a,.local-search-pagination span{display:inline-flex;min-width:40px;min-height:40px;align-items:center;justify-content:center;padding:8px 12px;border:1px solid #e1e3e4;color:#1e2d7d;text-decoration:none}",
       ".local-search-pagination a:hover{border-color:#1e2d7d;background:#f3f5f6}",
@@ -1086,6 +1091,22 @@
     });
   }
 
+  function readCategories() {
+    var categories = [];
+    var seenCategories = new Set();
+    var siteCollectionPath = siteRoot.pathname + "collections/";
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var url = new URL(link.href, window.location.href);
+      var title = link.textContent.replace(/\s+/g, " ").trim();
+      if (url.origin !== window.location.origin ||
+          url.pathname.indexOf(siteCollectionPath) !== 0 ||
+          !title || seenCategories.has(url.pathname)) return;
+      seenCategories.add(url.pathname);
+      categories.push({ title: title, href: url.href, path: url.pathname });
+    });
+    return categories;
+  }
+
   function renderSearch(products) {
     var query = new URLSearchParams(window.location.search).get("q") || "";
     var normalizedQuery = normalizeSearchText(query);
@@ -1099,6 +1120,20 @@
         return searchableText.indexOf(term) !== -1;
       });
     }) : [];
+    var categories = normalizedQuery ? siteCategories.filter(function (category) {
+      var categoryPathAliases = category.path.replace(/playstation[-/]?([45])/gi, "ps$1");
+      var searchableText = normalizeSearchText(
+        category.title + " " + category.path + " " + categoryPathAliases
+      );
+      return searchTerms.every(function (term) {
+        return searchableText.indexOf(term) !== -1;
+      });
+    }) : [];
+    if (categories.length) {
+      categories.sort(function (first, second) {
+        return first.title.localeCompare(second.title);
+      });
+    }
     matches.sort(function (first, second) {
       var firstTitle = normalizeSearchText(first.title);
       var secondTitle = normalizeSearchText(second.title);
@@ -1127,12 +1162,37 @@
       prompt.className = "local-search-empty";
       prompt.textContent = "Enter a product name in the search box above.";
       section.appendChild(prompt);
-    } else if (!matches.length) {
-      var empty = document.createElement("p");
-      empty.className = "local-search-empty";
-      empty.textContent = "No products found. Try another search.";
-      section.appendChild(empty);
     } else {
+      if (categories.length) {
+        var categoryHeading = document.createElement("h2");
+        categoryHeading.textContent = "Categories";
+        section.appendChild(categoryHeading);
+        var categoryGrid = document.createElement("div");
+        categoryGrid.className = "local-search-category-grid";
+        categories.forEach(function (category) {
+          var link = document.createElement("a");
+          link.className = "local-search-category";
+          link.href = category.href;
+          link.textContent = category.title;
+          categoryGrid.appendChild(link);
+        });
+        section.appendChild(categoryGrid);
+      }
+
+      if (!matches.length && !categories.length) {
+        var empty = document.createElement("p");
+        empty.className = "local-search-empty";
+        empty.textContent = "No matching categories or products found. Try another search.";
+        section.appendChild(empty);
+      }
+    }
+
+    if (normalizedQuery && matches.length) {
+      if (categories.length) {
+        var productHeading = document.createElement("h2");
+        productHeading.textContent = "Products";
+        section.appendChild(productHeading);
+      }
       var grid = document.createElement("div");
       grid.className = "local-product-grid";
       pageMatches.forEach(function (product) {
@@ -1297,6 +1357,7 @@
     // Shopify's cart refresh requires a backend; the local cart is refreshed below.
     window.onpageshow = null;
     addStyles();
+    siteCategories = readCategories();
     simplifyNavigation();
     prepareSiteLinks();
     wireSearchForms();
